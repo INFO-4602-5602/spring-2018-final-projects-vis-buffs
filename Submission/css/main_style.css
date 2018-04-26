@@ -1,0 +1,14 @@
+#shell {
+  padding-top: 100px;
+}
+
+.proInfo {
+  position: relative;
+}
+
+.proInfo h1 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translateY(-50%);
+}
