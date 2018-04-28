@@ -441,9 +441,9 @@ d3v3.csv("data/cloud.csv", function(error, data) {
         .attr('class','word')
         .style("font-size", function(d) { return d.size + "px"; })
         .style("font-family", function(d) { return d.font; })
-        .style("fill", function(d) { 
+        .style("fill", function(d) {
             var paringObject = data.filter(function(obj) { return obj.password === d.text});
-            return color(paringObject[0].category); 
+            return color(paringObject[0].category);
         })
         .attr("text-anchor", "middle")
         .attr("transform", function(d) { return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")"; })
