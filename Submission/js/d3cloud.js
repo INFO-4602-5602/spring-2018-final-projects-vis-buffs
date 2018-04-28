@@ -428,11 +428,39 @@ d3v3.csv("data/cloud.csv", function(error, data) {
   svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
-      .call(xAxis)
+      //.call(xAxis)
     .selectAll('text')
       .style('font-size','20px')
       .style('fill',function(d) { return color(d); })
       .style('font','sans-serif');
+  
+  var legendRectSize = 18;
+  var legendSpacing = 4;
+
+
+  var legend = svg.selectAll('.legend')
+        .data(color)
+        .enter()
+        .append('g')
+        .attr('class', 'legend')
+        .attr('transform', function(d, i) {
+          var height = legendRectSize + legendSpacing;
+          var offset = height * categories.length / 2;
+          var horz = -3 * legendRectSize;
+          var vert = i * height - offset + 10;
+          return 'translate(' + 0 + ',' + 100 + ')';
+        });
+
+      legend.append('rect')
+        .attr('width', legendRectSize)
+        .attr('height', legendRectSize)
+        .style('fill', color)
+        .style('stroke', color) // UPDATED (removed semicolon)
+        
+      legend.append('text')
+        .attr('x', legendRectSize + legendSpacing)
+        .attr('y', legendRectSize - legendSpacing)
+        //.text(categories);
 
   function draw(words) {
     wordcloud.selectAll("text")
