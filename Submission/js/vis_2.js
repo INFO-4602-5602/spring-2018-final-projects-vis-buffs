@@ -1,3 +1,6 @@
+// reference: http://bl.ocks.org/NPashaP/a74faf20b492ad377312
+// integrate the map design with Yelp rating data
+
 function tooltipHtml(n, d){	/* function to create html content string in tooltip div. */
 		return "<h4>"+n+"</h4><table>"+
 			//"<tr><td>Low</td><td>"+(d.low)+"</td></tr>"+
