@@ -21,6 +21,7 @@
 .state:hover{
 	fill-opacity:0.5;
 }
+
 #tooltip {
 	position: absolute;
 	text-align: center;

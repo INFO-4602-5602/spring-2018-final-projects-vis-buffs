@@ -16,10 +16,10 @@ var sampleData ={};	/* Sample random data. */
 		var low=5.0*Math.random(),
 			mid=5.0*Math.random(),
 			high=5.0*Math.random();
-		sampleData[d]={avg:((low+mid+high)/3).toFixed(2), color:d3.interpolate("#ffffcc", "#800026")(low/5)};
+		sampleData[d]={avg:((low+mid+high)/3).toFixed(2), color:d3.interpolate("#fee8c8", "#e34a33")(low/5)};
 	});
 
 /* draw states on id #statesvg */
 uStates.draw("#statesvg", sampleData, tooltipHtml);
 
-d3.select("vis_2").style("height", "600px");
+d3.select("vis_2").style("height", "400px");
