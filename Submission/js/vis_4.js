@@ -22,7 +22,7 @@ var force = d3.layout.force()
   //using width/height from above, but size is mainly det'd by linkDistance and charge
   .size([width, height])
   // how far between nodes
-  .linkDistance(160)
+  .linkDistance(220)
   // changes how close nodes will get to each other. Neg is farther apart.
   .charge(-300);
 
