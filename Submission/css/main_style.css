@@ -118,6 +118,8 @@ text.value {
   fill-opacity: .9;
 }
 
+/* vis_4 css */
+
 .link {
   stroke: #d32323;
   stroke-opacity: .6;
@@ -126,4 +128,18 @@ text.value {
 .node {
   stroke: #fff;
   stroke-width: .5px;
+}
+
+#vis4_tip {
+  position: absolute;
+  text-align: center;
+  width: 120px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: none repeat scroll 0 0 white;
+  box-shadow: -3px 3px 15px #888888;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
 }

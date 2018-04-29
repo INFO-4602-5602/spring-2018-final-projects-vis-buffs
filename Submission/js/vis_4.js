@@ -1,11 +1,15 @@
 var linkpath = ("./data/friends.csv");
 var nodepath = ("./data/friends40avgstars.csv");
 
-var width = 900,
+var width = 960,
   height = 500;
 
 var color = d3.scale.category20();
 
+var vis4_tip = d3.select("#vis4_tip").style("opacity", 0);
+// var vis4_tip = d3.select("#network_vis").append("div")
+//   .attr("class", "vis4_tooltip")
+//   .style("opacity", 0);
 
 var svg_v4 = d3.select("#network_vis").append("svg")
   .attr("width", width)
@@ -31,9 +35,6 @@ d3.csv(nodepath, function(nodes) {
   count = 0;
   // we want to create a lookup table that will relate the links file and the nodes file
   nodes.forEach(function(row) {
-    console.log(row.user_id);
-    console.log(row.average_stars);
-
     nodelookup[row.user_id] = count;
 
     nodecollector[row.user_id] = {
@@ -53,10 +54,6 @@ d3.csv(nodepath, function(nodes) {
     count = 0;
     //console.log(nodelookup['celery'])
     linkchecker.forEach(function(link) {
-      console.log(link.source);
-      console.log(link.target);
-      console.log(link.share_restaurant);
-
       linkcollector[count] = {
         source: nodelookup[link.source],
         target: nodelookup[link.target],
@@ -69,10 +66,6 @@ d3.csv(nodepath, function(nodes) {
     //console.log(linkcollector)
     var nodes = d3.values(nodecollector);
     var links = d3.values(linkcollector);
-
-    console.log("nodes is:");
-    console.log(nodes)
-    //console.log(links)
 
     // Create the link lines.
     var link = svg_v4.selectAll(".link")
@@ -100,6 +93,20 @@ d3.csv(nodepath, function(nodes) {
         return (d.node_size * d.node_size * d.node_size / 4);
       })
       .attr("class", "node")
+      .on("mouseover", function(d) {
+        console.log(d3.event.pageX + ":" + d3.event.pageY);
+        vis4_tip.transition()
+          .duration(200)
+          .style("opacity", .9);
+        vis4_tip.html("Average Rating:" + "<br/>" + d.node_size)
+          .style("left", (d3.event.pageX) + "px")
+          .style("top", (d3.event.pageY - 28) + "px");
+      })
+      .on("mouseout", function(d) {
+        vis4_tip.transition()
+          .duration(500)
+          .style("opacity", 0);
+      })
       .call(force.drag);
 
     //get it going!
@@ -132,6 +139,3 @@ d3.csv(nodepath, function(nodes) {
 
   });
 });
-
-
-//TODO: add tooltip and legend
