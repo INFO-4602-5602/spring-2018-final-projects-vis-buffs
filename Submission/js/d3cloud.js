@@ -1,7 +1,7 @@
 var width = 960,
             height = 500
 
-        var color = d3.scale.ordinal().range(["#66c2a5","#fc8d62","#8da0cb","#e78ac3","#a6d854"]);
+        var colorcloud = d3.scale.ordinal().range(["#66c2a5","#fc8d62","#8da0cb","#e78ac3","#a6d854"]);
         var svg = d3.select("#cloud").append("svg")
             .attr("width", width)
             .attr("height", height);
@@ -91,7 +91,7 @@ var width = 960,
                     .style("font-family", "overwatch")
                     .style("fill", function (d) {
                         var paringObject = data.filter(function(obj) { return obj.text === d.text});
-                        return color(paringObject[0].category);
+                        return colorcloud(paringObject[0].category);
                     })
                     .style("fill-opacity", .5)
                     .attr("text-anchor", "middle") 
