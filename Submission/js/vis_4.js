@@ -7,28 +7,20 @@ var width = 960,
 var color = d3.scale.category20();
 
 var vis4_tip = d3.select("#vis4_tip").style("opacity", 0);
-// var vis4_tip = d3.select("#network_vis").append("div")
-//   .attr("class", "vis4_tooltip")
-//   .style("opacity", 0);
 
 var svg_v4 = d3.select("#network_vis").append("svg")
   .attr("width", width)
   .attr("height", height);
 
-
-//Want to have different labels
 // SETTING UP THE FORCE LAYOUT
 var force = d3.layout.force()
-  //using width/height from above, but size is mainly det'd by linkDistance and charge
   .size([width, height])
   // how far between nodes
-  .linkDistance(220)
+  .linkDistance(200)
   // changes how close nodes will get to each other. Neg is farther apart.
   .charge(-300);
 
-
 d3.csv(nodepath, function(nodes) {
-
   var nodelookup = {};
   var nodecollector = {};
 
@@ -45,21 +37,18 @@ d3.csv(nodepath, function(nodes) {
   });
 
   //Get all the links out of of the csv in a way that will match up with the nodes
-
   d3.csv(linkpath, function(linkchecker) {
-
     var linkcollector = {};
     indexsource = 0;
     indextarget = 0;
     count = 0;
-    //console.log(nodelookup['celery'])
+
     linkchecker.forEach(function(link) {
       linkcollector[count] = {
         source: nodelookup[link.source],
         target: nodelookup[link.target],
         link_stroke: link.share_restaurant
       };
-      //console.log(linkcollector[count])
       count++;
     });
 
@@ -76,9 +65,6 @@ d3.csv(nodepath, function(nodes) {
         if (d.link_stroke == 0) return 1;
         return (Math.sqrt(d.link_stroke));
       });
-    // .attr("class", function(d) {
-    //   return "link " + d.type;
-    // })
 
     // Create the node circles.
     var node = svg_v4.selectAll(".node")
@@ -129,13 +115,9 @@ d3.csv(nodepath, function(nodes) {
           return d.target.y;
         });
 
-      //I think that translate changes all of the x and ys at once instead of one by one?
       node.attr("transform", function(d) {
         return "translate(" + d.x + "," + d.y + ")";
       });
-
     })
-
-
   });
 });
