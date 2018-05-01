@@ -257,8 +257,8 @@ function Optimizer(model0, model1, stepSize) {
 
   // Get extents of item scores, and use for range of search.
   function getScore(item) {return item.score;}
-  var extent0 = d3.extent(model0.items, getScore);
-  var extent1 = d3.extent(model1.items, getScore);
+  var extent0 = d3v4.extent(model0.items, getScore);
+  var extent1 = d3v4.extent(model1.items, getScore);
   // Add to max value to include possibility of all-negative threshold.
   extent0[1] += stepSize;
   extent1[1] += stepSize;
@@ -386,7 +386,7 @@ function defineIcon(selection) {
 }
 
 function createIcons(id, items, width, height, pad) {
-  var svg = d3.select('#' + id).append('svg')
+  var svg = d3v4.select('#' + id).append('svg')
     .attr('width', width)
     .attr('height', height);
   if (pad) {
@@ -433,7 +433,7 @@ function createHistogram(id, model, noThreshold, includeAnnotation) {
   var numBuckets = 100 / HISTOGRAM_BUCKET_SIZE;
   var pedestalWidth = numBuckets * SIDE;
   var hx = (width - pedestalWidth) / 2;
-    var scale = d3.scaleLinear().range([hx, hx + pedestalWidth]).
+    var scale = d3v4.scaleLinear().range([hx, hx + pedestalWidth]).
       domain([0,100]);
 
   function histogramLayout(items, x, y, side, low, high, bucketSize) {
@@ -454,11 +454,11 @@ function createHistogram(id, model, noThreshold, includeAnnotation) {
 
   var tx = width / 2;
   var topY = 60;
-  var axis = d3.axisBottom(scale);
+  var axis = d3v4.axisBottom(scale);
   svg.append('g').attr('class', 'histogram-axis')
     .attr('transform', 'translate(0,-8)')
     //.call(axis);
-  d3.select('.domain').attr('stroke-width', 1);
+  d3v4.select('.domain').attr('stroke-width', 1);
 
   if (noThreshold) {
     return;
@@ -496,16 +496,16 @@ function createHistogram(id, model, noThreshold, includeAnnotation) {
     var rounded = SIDE * Math.round(tx / SIDE);
     cutoff.attr('x', rounded);
     var labelX = Math.max(50, Math.min(rounded, width - 70));
-    thresholdLabel.attr('x', labelX).text('business average star threshold: ' + d3.format(",.1f")(t/20*1.4));
+    thresholdLabel.attr('x', labelX).text('business average star threshold: ' + d3v4.format(",.1f")(t/20*1.4));
     if (includeAnnotation) {
       thresholdAnnotation.attr('x', tx - annotationW / 2);
     }
     svg.selectAll('.icon').call(defineIcon);
   }
-  var drag = d3.drag()
+  var drag = d3v4.drag()
     .on('drag', function() {
       var oldTx = tx;
-      tx += d3.event.dx;
+      tx += d3v4.event.dx;
       var t = scale.invert(tx);
       setThreshold(t, true);
       if (tx != oldTx) {
@@ -532,7 +532,7 @@ function createHistogramLegend(id, category) {
   var centerPad = 1;
 
   // Create SVG.
-  var svg = d3.select('#' + id).append('svg')
+  var svg = d3v4.select('#' + id).append('svg')
     .attr('width', width)
     .attr('height', height);
 
@@ -594,7 +594,7 @@ function createSimpleHistogramLegend(id, category) {
   var lx = 50;
 
   // Create SVG.
-  var svg = d3.select('#' + id).append('svg')
+  var svg = d3v4.select('#' + id).append('svg')
     .attr('width', width)
     .attr('height', height);
 
@@ -643,7 +643,7 @@ function createPie(id, values, colors, svg, ox, oy, radius) {
   makeAngles(values);
   var slices = svg.selectAll('.slice-' + id);
   function makeArc(d) {
-    return d3.arc()
+    return d3v4.arc()
       .innerRadius(0)
       .outerRadius(radius)
       .startAngle(d[0]).endAngle(d[1])();
@@ -691,7 +691,7 @@ function createRatePies(id, model, palette, includeAnnotations) {
   var width = 300;
   var lx = 0;
   var height = 170;
-  var svg = d3.select('#' + id).append('svg')
+  var svg = d3v4.select('#' + id).append('svg')
     .attr('width', width)
     .attr('height', height);
   // Add a little margin so the annotation rectangle
