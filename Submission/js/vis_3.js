@@ -25,45 +25,45 @@ svg1.append('rect')
     .attr('height', 15)
     .style('fill', "#fc8d62")
     .style('stroke', "#fc8d62")
-    .attr("transform", "translate(" + 300 + "," + 20 + ")")
+    .attr("transform", "translate(" + 300 + "," + 70 + ")")
 
-svg1.append('text').text("2 star").attr("transform", "translate(" + 342 + "," + 31 + ")").attr("fill","#fc8d62")
+svg1.append('text').text("2 star").attr("transform", "translate(" + 342 + "," + 81 + ")").attr("fill","#fc8d62")
 
 svg1.append('rect')
     .attr('width', 15)
     .attr('height', 15)
     .style('fill', "#8da0cb")
     .style('stroke', "#8da0cb")
-    .attr("transform", "translate(" + 200 + "," + 20 + ")")
+    .attr("transform", "translate(" + 200 + "," + 70 + ")")
 
-svg1.append('text').text("3 star").attr("transform", "translate(" + 242 + "," + 31 + ")").attr("fill","#8da0cb")
+svg1.append('text').text("3 star").attr("transform", "translate(" + 242 + "," + 81 + ")").attr("fill","#8da0cb")
 
 svg1.append('rect')
     .attr('width', 15)
     .attr('height', 15)
     .style('fill', "#e78ac3")
     .style('stroke', "#e78ac3")
-    .attr("transform", "translate(" + 100 + "," + 20 + ")")
+    .attr("transform", "translate(" + 100 + "," + 70 + ")")
 
-svg1.append('text').text("4 star").attr("transform", "translate(" + 142 + "," + 31 + ")").attr("fill","#e78ac3")
+svg1.append('text').text("4 star").attr("transform", "translate(" + 142 + "," + 81 + ")").attr("fill","#e78ac3")
 
 svg1.append('rect')
     .attr('width', 15)
     .attr('height', 15)
     .style('fill', "#a6d854")
     .style('stroke', "#a6d854")
-    .attr("transform", "translate(" + 10 + "," + 20 + ")")
+    .attr("transform", "translate(" + 10 + "," + 70 + ")")
 
-svg1.append('text').text("5 star").attr("transform", "translate(" + 42 + "," + 31 + ")").attr("fill","#a6d854")
+svg1.append('text').text("5 star").attr("transform", "translate(" + 42 + "," + 81 + ")").attr("fill","#a6d854")
 
 svg1.append('rect')
     .attr('width', 15)
     .attr('height', 15)
     .style('fill', "#66c2a5")
     .style('stroke', "#66c2a5")
-    .attr("transform", "translate(" + 400 + "," + 20 + ")")
+    .attr("transform", "translate(" + 400 + "," + 70 + ")")
 
-svg1.append('text').text("1 star").attr("transform", "translate(" + 442 + "," + 31 + ")").attr("fill","#66c2a5")
+svg1.append('text').text("1 star").attr("transform", "translate(" + 442 + "," + 81 + ")").attr("fill","#66c2a5")
 
 function showCloud(data) {
   d3.layout.cloud().size([width, height])
