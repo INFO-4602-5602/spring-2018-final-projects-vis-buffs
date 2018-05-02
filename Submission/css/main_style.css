@@ -6,6 +6,18 @@
   margin-top: 100px;
 }
 
+.vis_title {
+  font-family: "Amatic SC";
+  font-weight: bolder;
+}
+
+.nav-link {
+  color: white;
+  font-family: "Amatic SC";
+  font-size: 2em;
+  font-weight: bolder;
+}
+
 /* .proInfo {
   position: relative;
 }
