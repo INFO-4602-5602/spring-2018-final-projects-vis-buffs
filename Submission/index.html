@@ -19,9 +19,9 @@
 </head>
 
 <body onload="main()">
-  <div id="shell" class="container">
+  <div id="shell" class="">
     <!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"> -->
-    <nav class="navbar navbar-expand-sm  fixed-top">
+    <nav class="navbar navbar-expand-sm  fixed-top" style="padding-top: 0">
       <!-- Brand/logo -->
       <a class="navbar-brand" href="#">
         <img src="images/yelp_logo.png" alt="logo" style="width:130px;">
@@ -58,10 +58,10 @@
         <div class="proInfo col-6">
           <!-- <h1 class="text-center">Story</h1> -->
           <img class="img-fluid" src="images/tag1_text.png">
-          <img class="img-fluid mt-5" src="images/paragrah1.png">
+          <img class="img-fluid mt-5 pl-5" src="images/paragrah1.png">
         </div>
         <div class="col-6 text-right">
-          <img class="img-fluid" src="images/food1.png" style="max-height:400px">
+          <img class="img-fluid mt-5 pr-5" src="images/food1.png" style="max-height:400px">
         </div>
       </div>
 
@@ -84,10 +84,10 @@
         <div class="proInfo col-5">
           <!-- <h1 class="text-center">Story</h1> -->
           <img class="img-fluid" src="images/tag3_text.png">
-          <img class="img-fluid mt-5" src="images/paragraph_3.png">
+          <img class="img-fluid mt-5 pl-5" src="images/paragraph_3.png">
         </div>
         <div class="col-7 text-right">
-          <img class="img-fluid mt-5" src="images/sketch.png">
+          <img class="img-fluid mt-5 pr-5" src="images/sketch.png">
         </div>
       </div>
     </div>
@@ -138,19 +138,10 @@
       </div>
     </div>
 
-    <!-- modal -->
-
     <!-- The Modal -->
     <div class="modal fade" id="myModal">
       <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">Modal Heading</h4>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-          </div>
-
+        <div class="modal-content ">
           <!-- Modal body -->
           <div class="modal-body">
             <div class="proVis" id="vis_2">
@@ -172,9 +163,11 @@
       </div>
     </div>
 
+
+
     <!-- =======================MODEL TREE============================= -->
     <!-- prediction testing section -->
-    <div class="" id="project_exam">
+    <div class="container" id="project_exam">
       <!-- please add sub-divs for each content -->
       <div class="bestsplit" id="bestsplit">
         <h2 class="vis_title text-center">Best Split</h2>
@@ -250,7 +243,7 @@
 
   </div>
 
-  <footer class=""> <img class="mt-5" src="../images/footer_team.png" style="width:100%; max-height:160px; padding:2px"> </footer>
+  <footer class=""> <img class="mt-5" src="../images/new_footer.png" style="width:100%; max-height:160px; padding:2px"> </footer>
 
   <!--bootstrap JavaScripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

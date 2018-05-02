@@ -1,5 +1,7 @@
 #shell {
   padding-top: 120px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
 }
 
 #vis_section_tag {
@@ -320,10 +322,16 @@ nav {
   background-image: url("../images/red_header.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 100px;
+  height: 120px;
+  opacity: 0.9;
+  vertical-align: top;
 }
 
 .modal-content {
   width: 1000px;
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.modal-dialog {
+  margin-left: 150px;
 }
