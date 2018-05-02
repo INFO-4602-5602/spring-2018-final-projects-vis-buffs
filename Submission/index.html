@@ -2,212 +2,227 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>INFO-4602/5602-Final-VisBuffs</title>
-    <link rel="icon" href="images/yelp-icon.ico">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>INFO-4602/5602-Final-VisBuffs</title>
+  <link rel="icon" href="images/yelp-icon.ico">
 
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-
-    <!-- project css -->
-    <link rel="stylesheet" href="css/main_style.css">
-
+  <!-- project css -->
+  <link rel="stylesheet" href="css/main_style.css">
 
 </head>
 
 <body onload="main()">
-    <div id="shell" class="container">
-        <!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"> -->
-        <nav class="navbar navbar-expand-sm  fixed-top">
-            <!-- Brand/logo -->
-            <a class="navbar-brand" href="#">
+  <div id="shell" class="container">
+    <!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"> -->
+    <nav class="navbar navbar-expand-sm  fixed-top">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="#">
         <img src="images/yelp_logo.png" alt="logo" style="width:80px;">
       </a>
 
-            <!-- Links -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link 1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link 2</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link 3</a>
-                </li>
-            </ul>
-        </nav>
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link 3</a>
+        </li>
+      </ul>
+    </nav>
 
-        <!-- project story section -->
-        <div class="" id="project_info">
-            <!-- please add sub-divs for each content -->
-            <!-- story -->
-            <div class="row" id="story">
-                <div class="proInfo col-5">
-                    <!-- <h1 class="text-center">Story</h1> -->
-
-                </div>
-                <div class="col-7">
-                    <p>this is the project story <br> this is the project story <br> this is the project story <br> this is the project story <br> this is the project story <br>this is the project story <br>this is the project story <br>this is the project
-                        story
-                    </p>
-                </div>
-            </div>
-
-            <hr>
-
-            <!-- goal -->
-            <div class="row" id="goal">
-                <div class="proInfo col-7">
-                    <p>this is the project goal <br>this is the project goal <br>this is the project goal <br>this is the project goal <br>this is the project goal <br>this is the project goal <br> </p>
-                </div>
-                <div class="proInfo col-5 text-center">
-                    <h1 class="text-center">Goal</h1>
-                </div>
-            </div>
-
-
+    <!-- project story section -->
+    <div class="" id="project_info">
+      <!-- please add sub-divs for each content -->
+      <!-- story -->
+      <div class="row" id="story">
+        <div class="proInfo col-6">
+          <!-- <h1 class="text-center">Story</h1> -->
+          <img class="img-fluid" src="images/tag1_text.png">
+          <img class="img-fluid mt-5" src="images/paragrah1.png">
         </div>
-
-        <hr>
-
-        <!-- project visualization section -->
-        <div class="" id="project_vis">
-            <!-- please add sub-divs for each content -->
-            <div class="proVis" id="vis_1">
-                <h2 class="text-center">Restaurant Category and Yelp Rating</h2>
-
-            </div>
-            <hr>
-
-            <div class="proVis" id="vis_2">
-                <h2 class="text-center">US Yelp Rating Map</h2>
-
-                <div id="tooltip"></div>
-                <!-- div to hold tooltip. -->
-                <svg width="960" height="600" id="statesvg"></svg>
-                <!-- svg to hold the map. -->
-            </div>
-            <hr>
-
-            <div class="proVis" id="vis_3">
-                <h2 class="text-center">Word Cloud from Yelp Reviews</h2>
-                <div class="" id="cloud">
-                </div>
-
-            </div>
-            <hr>
-
-            <div class="proVis" id="vis_4">
-                <h2 class="text-center">Yelp User Friendship Network</h2>
-                <div class="" id="network_vis">
-                    <div id="vis4_tip">
-
-                    </div>
-
-                </div>
-
-            </div>
-            <hr>
-
+        <div class="col-6 text-right">
+          <img class="img-fluid" src="images/food1.png" style="max-height:400px">
         </div>
+      </div>
 
-        <!-- prediction testing section -->
-        <div class="" id="project_exam">
-            <!-- please add sub-divs for each content -->
-            <div class="bestsplit" id="bestsplit">
-                <h2 class="text-center">Best Split</h2>
-                <div onload="main()">
-                    <script src="js/d3v4.js"></script>
-                    <script src="add/bundle.js"></script>
+      <!-- goal -->
+      <div class="row mt-5" id="goal">
+        <div class="proInfo col-3">
+          <img class="img-fluid" src="images/food2.png" style="max-height:400px">
+        </div>
+        <div class="proInfo col-9">
+          <!-- <h1 class="text-center">Goal</h1> -->
+          <div class="text-right">
+            <img class="img-fluid" src="images/tag2_text.png">
+          </div>
+          <img class="img-fluid mt-5" src="images/paragraph_2.png">
+        </div>
+      </div>
+
+      <!-- design -->
+      <div class="row mt-5" id="story">
+        <div class="proInfo col-5">
+          <!-- <h1 class="text-center">Story</h1> -->
+          <img class="img-fluid" src="images/tag3_text.png">
+          <img class="img-fluid mt-5" src="images/paragraph_3.png">
+        </div>
+        <div class="col-7 text-right">
+          <img class="img-fluid mt-5" src="images/sketch.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center" id="vis_section_tag">
+      <img class="img-fluid" src="images/yelp-logo.png" style="max-height:100px">
+    </div>
+    <hr class="mb-5">
+
+    <!-- project visualization section -->
+    <div class="" id="project_vis">
+      <!-- please add sub-divs for each content -->
+
+      <div class="row">
+        <div class="col-6">
+          <div class="proVis" id="vis_1">
+            <h2 class="text-center">Restaurant Category and Yelp Rating</h2>
+
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="proVis" id="vis_2">
+            <h2 class="text-center">US Yelp Rating Map</h2>
+
+            <div id="tooltip"></div>
+            <!-- div to hold tooltip. -->
+            <svg width="500" height="400" id="statesvg"></svg>
+            <!-- svg to hold the map. -->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="proVis" id="vis_3">
+            <h2 class="text-center">Word Cloud from Yelp Reviews</h2>
+            <div class="" id="cloud">
+            </div>
+
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="proVis" id="vis_4">
+            <h2 class="text-center">Yelp User Friendship Network</h2>
+            <div class="text-center" id="network_vis">
+              <div id="vis4_tip">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- prediction testing section -->
+    <div class="" id="project_exam">
+      <!-- please add sub-divs for each content -->
+      <div class="bestsplit" id="bestsplit">
+        <h2 class="text-center">Best Split</h2>
+        <div onload="main()">
+          <script src="js/d3v4.js"></script>
+          <script src="add/bundle.js"></script>
 
 
 
-                    <table>
-                        <tr>
-                            <td>&nbsp;</td>
-                            <td colspan=3>
-                                <div class="figure-title">
-                                    Simulating best split
-                                </div>
-                                <div class="figure-caption">
-                                    Drag the black threshold bars left or right to change the cut-offs for business average ratings.<br>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td valign="top">
-                                <table>
-                                    <tr>
-                                        <td width="200" valign="top" align="right">
-                                            <div style="margin-top:44px">
-                                                <span class="margin-bold">Business average rating</span><br>
-                                                <span class="margin-text">
+          <table>
+            <tr>
+              <td>&nbsp;</td>
+              <td colspan=3>
+                <div class="figure-title">
+                  Simulating best split
+                </div>
+                <div class="figure-caption">
+                  Drag the black threshold bars left or right to change the cut-offs for business average ratings.<br>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <table>
+                  <tr>
+                    <td width="200" valign="top" align="right">
+                      <div style="margin-top:44px">
+                        <span class="margin-bold">Business average rating</span><br>
+                        <span class="margin-text">
             higher business average ratings represent users' giving higher rating
             </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td width="200" valign="bottom" align="right">
-                                            <div style="margin-top:160px">
-                                                <span class="margin-text">
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="200" valign="bottom" align="right">
+                      <div style="margin-top:160px">
+                        <span class="margin-text">
             each circle represents a user,
             with dark circles showing users who give ratings higher than 3.5 star and light circles showing users who give ratings lower than 3.5 star
             </span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td width="200" valign="bottom" align="right">
-                                            <div style="margin-top:30px">
-                                                <span class="margin-bold">Color</span>
-                                            </div>
-                                        </td>
-                                    </tr>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="200" valign="bottom" align="right">
+                      <div style="margin-top:30px">
+                        <span class="margin-bold">Color</span>
+                      </div>
+                    </td>
+                  </tr>
 
-                                </table>
-                            </td>
+                </table>
+              </td>
 
-                            <td valign="top">
-                                <div class="big-label" style="margin-bottom:50px">Threshold Decision</div>
-                                <div id="single-histogram0"></div>
-                                <div id="single-histogram-legend0" class="histogram-legend"></div>
-                            </td>
-                            <td width=30>&nbsp;</td>
-                            <td valign="top">
-                                <div class="big-label" style="margin-bottom:20px;margin-left:10px">Outcome</div>
-                                <div id="single-correct0"></div>
-                                <div id="single-pies0"></div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
+              <td valign="top">
+                <div class="big-label" style="margin-bottom:50px">Threshold Decision</div>
+                <div id="single-histogram0"></div>
+                <div id="single-histogram-legend0" class="histogram-legend"></div>
+              </td>
+              <td width=30>&nbsp;</td>
+              <td valign="top">
+                <div class="big-label" style="margin-bottom:20px;margin-left:10px">Outcome</div>
+                <div id="single-correct0"></div>
+                <div id="single-pies0"></div>
+              </td>
+            </tr>
+          </table>
         </div>
-
+      </div>
     </div>
 
+  </div>
 
-    </div>
 
-    <footer class="container">This is the footer</footer>
+  </div>
 
-    <!--bootstrap JavaScripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <footer class="container">This is the footer</footer>
 
-    <!-- project JavaScript -->
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js" type="text/JavaScript"></script>
-    <script src="js/vis_1.js"></script>
-    <script src="js/uStates.js"></script>
-    <script src="js/vis_2.js"></script>
-    <script src="js/vis_3.js"></script>
-    <script src="js/vis_4.js"></script>
+  <!--bootstrap JavaScripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- project JavaScript -->
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js" type="text/JavaScript"></script>
+  <script src="js/vis_1.js"></script>
+  <script src="js/uStates.js"></script>
+  <script src="js/vis_2.js"></script>
+  <script src="js/vis_3.js"></script>
+  <script src="js/vis_4.js"></script>
 
 </body>
 
