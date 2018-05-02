@@ -48,7 +48,7 @@
         </li>
       </ul>
     </nav>
-
+    <!-- =======================Story============================= -->
     <!-- project story section -->
     <div class="" id="project_info">
       <!-- please add sub-divs for each content -->
@@ -96,6 +96,7 @@
     </div>
     <hr class="mb-5">
 
+    <!-- =======================VIS============================= -->
     <!-- project visualization section -->
     <div class="" id="project_vis">
       <!-- please add sub-divs for each content -->
@@ -106,16 +107,12 @@
             <h2 class="vis_title text-center">Restaurant Category and Yelp Rating</h2>
 
           </div>
+
         </div>
         <div class="col-6">
-          <div class="proVis" id="vis_2">
-            <h2 class="vis_title text-center">US Yelp Rating Map</h2>
-
-            <div id="tooltip"></div>
-            <!-- div to hold tooltip. -->
-            <svg width="500" height="400" id="statesvg"></svg>
-            <!-- svg to hold the map. -->
-          </div>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+              Open modal
+            </button>
         </div>
       </div>
       <div class="row">
@@ -140,6 +137,41 @@
       </div>
     </div>
 
+    <!-- modal -->
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Modal Heading</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="proVis" id="vis_2">
+              <h2 class="vis_title text-center">US Yelp Rating Map</h2>
+
+              <div id="tooltip"></div>
+              <!-- div to hold tooltip. -->
+              <svg width="500" height="400" id="statesvg"></svg>
+              <!-- svg to hold the map. -->
+            </div>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- =======================MODEL TREE============================= -->
     <!-- prediction testing section -->
     <div class="" id="project_exam">
       <!-- please add sub-divs for each content -->
