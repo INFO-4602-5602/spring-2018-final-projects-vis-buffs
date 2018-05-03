@@ -2,7 +2,7 @@
 
 import pandas as pd
 import numpy as np
-
+from sklearn.metrics import confusion_matrix
 
 if __name__ == "__main__":
 
@@ -23,4 +23,20 @@ if __name__ == "__main__":
 
     # restaurant loc & rating
     loc_vs_rating = loc_data.groupby("state")['stars'].mean()
-    print(loc_vs_rating)
+    # print(loc_vs_rating)
+
+    # best split
+    # binary: < 4 Bad, >=4 Good
+    cat_data_split = cat_data[['review_stars', 'user_average_stars']]
+    cat_data_split['review_stars_bin'] = np.where(cat_data_split['review_stars'] > 3, 1, 0)
+
+    for threshold in np.arange(0.0, 5.1, 0.1):
+
+        cat_data_split['user_average_stars_bin'] = np.where(cat_data_split['user_average_stars'] > threshold, 1, 0)
+        tn, fp, fn, tp = confusion_matrix(cat_data_split['review_stars_bin'].tolist(), cat_data_split['user_average_stars_bin'].tolist()).ravel()
+        total = tn + fp + fn + tp
+        correct = float(tn + tp)/total*100
+        incorrect = float(fp + fn)/total*100
+        print(correct, incorrect)
+
+    # cat_data_split.to_csv("../data/rating_user_avg_star.csv")
