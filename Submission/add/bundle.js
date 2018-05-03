@@ -496,7 +496,7 @@ function createHistogram(id, model, noThreshold, includeAnnotation) {
     var rounded = SIDE * Math.round(tx / SIDE);
     cutoff.attr('x', rounded);
     var labelX = Math.max(50, Math.min(rounded, width - 70));
-    thresholdLabel.attr('x', labelX).text('business average star threshold: ' + d3v4.format(",.1f")(t/20*1.4));
+    thresholdLabel.attr('x', labelX).text('Star: ' + d3v4.format(",.1f")(t/20*1.4));
     if (includeAnnotation) {
       thresholdAnnotation.attr('x', tx - annotationW / 2);
     }
