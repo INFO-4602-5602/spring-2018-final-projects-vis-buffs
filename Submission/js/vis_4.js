@@ -1,3 +1,7 @@
+// $('#vis4_Modal').on('shown.bs.modal', function() {
+
+
+
 var linkpath = ("./data/friends.csv");
 var nodepath = ("./data/friends40avgstars.csv");
 
@@ -81,13 +85,14 @@ d3.csv(nodepath, function(nodes) {
       .attr("class", "node")
       .attr("fill", "rgba(102, 204, 255, 0.8)")
       .on("mouseover", function(d) {
-        console.log(d3.event.pageX + ":" + d3.event.pageY);
+        var v4_offset = $('#vis_4').offset();
+        //console.log(d3.event.pageX + ":" + d3.event.pageY);
         vis4_tip.transition()
           .duration(200)
-          .style("opacity", .9);
+          .style("opacity", 0.9);
         vis4_tip.html("Average Rating:" + "<br/>" + d.node_size)
-          .style("left", (d3.event.pageX) + "px")
-          .style("top", (d3.event.pageY - 28) + "px");
+          .style("left", (d3.event.pageX - v4_offset.left) + "px")
+          .style("top", (d3.event.pageY - v4_offset.top - 28) + "px");
       })
       .on("mouseout", function(d) {
         vis4_tip.transition()
@@ -122,3 +127,5 @@ d3.csv(nodepath, function(nodes) {
     })
   });
 });
+
+// });
