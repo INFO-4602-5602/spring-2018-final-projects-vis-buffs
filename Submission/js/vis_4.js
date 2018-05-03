@@ -1,8 +1,8 @@
 var linkpath = ("./data/friends.csv");
 var nodepath = ("./data/friends40avgstars.csv");
 
-var width = 500,
-  height = 400;
+var width = 960,
+  height = 600;
 
 var color = d3.scale.category20();
 
@@ -16,7 +16,7 @@ var svg_v4 = d3.select("#network_vis").append("svg")
 var force = d3.layout.force()
   .size([width, height])
   // how far between nodes
-  .linkDistance(110)
+  .linkDistance(180)
   // changes how close nodes will get to each other. Neg is farther apart.
   .charge(-300);
 

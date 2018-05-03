@@ -17,8 +17,8 @@ d3.csv("data/restaurant_category_rating_sel_avg.csv", function(data) {
   var axisMargin = 20,
     margin = 40,
     valueMargin = 4,
-    width = parseInt('500px', 10),
-    height = parseInt('400px', 10),
+    width = parseInt('960px', 10),
+    height = parseInt('600px', 10),
     barHeight = (height - axisMargin - margin * 2) * 0.4 / data.length,
     barPadding = (height - axisMargin - margin * 2) * 0.6 / data.length,
     data, bar, svg, scale, xAxis, labelWidth = 0;
