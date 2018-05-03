@@ -83,8 +83,9 @@ d3.csv("data/restaurant_category_rating_sel_avg.csv", function(data) {
     });
 
   bar.on("mousemove", function(d) {
-    div.style("left", d3.event.pageX + 10 + "px");
-    div.style("top", d3.event.pageY - 25 + "px");
+    var v1_offset = $('#vis_1').offset();
+    div.style("left", (d3.event.pageX - v1_offset.left + 10) + "px");
+    div.style("top", (d3.event.pageY - v1_offset.top - 25) + "px");
     div.style("display", "inline-block");
     div.html((d.category) + "<br>" + (d.avg));
   });
