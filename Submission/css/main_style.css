@@ -1,11 +1,9 @@
 #shell {
-  padding-top: 120px;
   padding-left: 2px;
   padding-right: 2px;
-}
-
-#vis_section_tag {
-  margin-top: 100px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .vis_title {
@@ -20,12 +18,16 @@
   font-weight: normal;
 }
 
+.nav_tp {
+  padding-top: 140px;
+}
+
 /* vis1 */
 
-#vis_1 {
+/* #vis_1 {
   width: 900px;
   height: 500px;
-}
+} */
 
 /* .proInfo {
   position: relative;
@@ -60,6 +62,7 @@
   border: 1px;
   border-radius: 2px;
   pointer-events: none;
+  z-index: 10000;
 }
 
 #tooltip h4 {
@@ -117,6 +120,7 @@ svg {
   font: 12px sans-serif;
   padding: 5px;
   text-align: center;
+  z-index: 10000;
 }
 
 text {
@@ -162,6 +166,7 @@ text.value {
   border: 0px;
   border-radius: 8px;
   pointer-events: none;
+  z-index: 100000;
 }
 
 td {

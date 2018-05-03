@@ -17,8 +17,10 @@ d3.csv("data/restaurant_category_rating_sel_avg.csv", function(data) {
   var axisMargin = 20,
     margin = 40,
     valueMargin = 4,
-    width = parseInt(d3.select('#vis_1').style('width'), 10),
-    height = parseInt(d3.select('#vis_1').style('height'), 10),
+    width = 900,
+    height = 500,
+    // width = parseInt(d3.select('#vis_1').style('width'), 10),
+    // height = parseInt(d3.select('#vis_1').style('height'), 10),
     barHeight = (height - axisMargin - margin * 2) * 0.4 / data.length,
     barPadding = (height - axisMargin - margin * 2) * 0.6 / data.length,
     data, bar, svg, scale, xAxis, labelWidth = 120;
@@ -30,7 +32,7 @@ d3.csv("data/restaurant_category_rating_sel_avg.csv", function(data) {
   svg = d3.select('#vis_1')
     .append("svg")
     .attr("width", width - margin)
-    .attr("height", height - margin);
+    .attr("height", height - 2 * margin);
 
   bar = svg.selectAll("g")
     .data(data)
@@ -83,8 +85,9 @@ d3.csv("data/restaurant_category_rating_sel_avg.csv", function(data) {
     });
 
   bar.on("mousemove", function(d) {
-    div.style("left", d3.event.pageX + 10 + "px");
-    div.style("top", d3.event.pageY - 25 + "px");
+    var v1_offset = $('#vis_1').offset();
+    div.style("left", (d3.event.pageX - v1_offset.left + 10) + "px");
+    div.style("top", (d3.event.pageY - v1_offset.top - 25) + "px");
     div.style("display", "inline-block");
     div.html((d.category) + "<br>" + (d.avg));
   });

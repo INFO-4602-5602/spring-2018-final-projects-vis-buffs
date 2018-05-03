@@ -8,7 +8,7 @@ var svg = d3.select("#vis_3").append("svg")
 var svg1 = d3.select("#vis_3").append("svg")
   .attr("width", 100)
   .attr("height", 10)
-  .attr("transform", "translate(" + 500 + "," + -100 + ")");
+  .attr("transform", "translate(" + 400 + "," + -100 + ")");
 d3.csv("data/cloud.csv", function(data) {
   showCloud(data)
   setInterval(function() {
