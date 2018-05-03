@@ -1,7 +1,7 @@
 #shell {
   padding-top: 120px;
-  /* padding-left: 10px;
-  padding-right: 10px; */
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 #vis_section_tag {
@@ -141,11 +141,6 @@ text.value {
 .link {
   stroke: #d60d50;
   stroke-opacity: .3;
-}
-
-.node {
-  /* stroke: rgba(153, 153, 153, 0.5);
-    stroke-width: .5px; */
 }
 
 #vis4_tip {
@@ -333,5 +328,11 @@ nav {
 }
 
 .modal-dialog {
-  margin-left: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-lg {
+  width: 1000px;
+  max-width: 1200px;
 }

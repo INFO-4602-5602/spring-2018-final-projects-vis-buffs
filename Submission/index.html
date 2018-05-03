@@ -104,20 +104,81 @@
 
       <div class="row">
         <div class="col-6">
-          <div class="proVis" id="vis_1">
-            <h2 class="vis_title text-center">Restaurant Category and Yelp Rating</h2>
-
-          </div>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vis1_Modal">
+              Open modal
+            </button>
 
         </div>
         <div class="col-6">
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vis2_Modal">
               Open modal
             </button>
         </div>
       </div>
       <div class="row">
         <div class="col-6">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vis3_Modal">
+              Open modal
+            </button>
+        </div>
+        <div class="col-6">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vis4_Modal">
+              Open modal
+            </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <!-- vis1 modal -->
+    <div class="modal fade" id="vis1_Modal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content ">
+          <!-- Modal body -->
+          <div class="proVis" id="vis_1">
+            <h2 class="vis_title text-center">Restaurant Category and Yelp Rating</h2>
+
+          </div>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- vis2 modal -->
+  <div class="modal fade" id="vis2_Modal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content ">
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="proVis" id="vis_2">
+            <h2 class="vis_title text-center">US Yelp Rating Map</h2>
+
+            <div id="tooltip"></div>
+            <!-- div to hold tooltip. -->
+            <svg width="500" height="400" id="statesvg"></svg>
+            <!-- svg to hold the map. -->
+          </div>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- vis3 modal -->
+  <div class="modal fade" id="vis3_Modal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content ">
+        <!-- Modal body -->
+        <div class="modal-body">
           <div class="proVis" id="vis_3">
             <h2 class="vis_title text-center">Word Cloud from Yelp Reviews</h2>
             <div class="" id="cloud">
@@ -125,7 +186,21 @@
 
           </div>
         </div>
-        <div class="col-6">
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- vis4 modal -->
+  <div class="modal fade" id="vis4_Modal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content ">
+        <!-- Modal body -->
+        <div class="modal-body">
           <div class="proVis" id="vis_4">
             <h2 class="vis_title text-center">Yelp User Friendship Network</h2>
             <div class="text-center" id="network_vis">
@@ -135,108 +210,90 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <!-- The Modal -->
-    <div class="modal fade" id="myModal">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content ">
-          <!-- Modal body -->
-          <div class="modal-body">
-            <div class="proVis" id="vis_2">
-              <h2 class="vis_title text-center">US Yelp Rating Map</h2>
-
-              <div id="tooltip"></div>
-              <!-- div to hold tooltip. -->
-              <svg width="500" height="400" id="statesvg"></svg>
-              <!-- svg to hold the map. -->
-            </div>
-          </div>
-
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
-
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
         </div>
+
       </div>
     </div>
+  </div>
 
 
 
-    <!-- =======================MODEL TREE============================= -->
-    <!-- prediction testing section -->
-    <div class="container" id="project_exam">
-      <!-- please add sub-divs for each content -->
-      <div class="bestsplit" id="bestsplit">
-        <h2 class="vis_title text-center">Best Split</h2>
-        <div onload="main()">
-          <script src="js/d3v4.js"></script>
-          <script src="add/bundle.js"></script>
+  <!-- =======================MODEL TREE============================= -->
+  <!-- prediction testing section -->
+  <div class="container" id="project_exam">
+    <!-- please add sub-divs for each content -->
+    <div class="bestsplit" id="bestsplit">
+      <h2 class="vis_title text-center">Best Split</h2>
+      <div onload="main()">
+        <script src="js/d3v4.js"></script>
+        <script src="add/bundle.js"></script>
 
-          <table>
-            <tr>
-              <td>&nbsp;</td>
-              <td colspan=3>
-                <div class="figure-title">
-                  Simulating best split
-                </div>
-                <div class="figure-caption">
-                  Drag the black threshold bars left or right to change the cut-offs for business average ratings.<br>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td valign="top">
-                <table>
-                  <tr>
-                    <td width="200" valign="top" align="right">
-                      <div style="margin-top:44px">
-                        <span class="margin-bold">Business average rating</span><br>
-                        <span class="margin-text">
+        <table>
+          <tr>
+            <td>&nbsp;</td>
+            <td colspan=3>
+              <div class="figure-title">
+                Simulating best split
+              </div>
+              <div class="figure-caption">
+                Drag the black threshold bars left or right to change the cut-offs for business average ratings.<br>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <table>
+                <tr>
+                  <td width="200" valign="top" align="right">
+                    <div style="margin-top:44px">
+                      <span class="margin-bold">Business average rating</span><br>
+                      <span class="margin-text">
             higher business average ratings represent users' giving higher rating
             </span>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="200" valign="bottom" align="right">
-                      <div style="margin-top:160px">
-                        <span class="margin-text">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="200" valign="bottom" align="right">
+                    <div style="margin-top:160px">
+                      <span class="margin-text">
             each circle represents a user,
             with dark circles showing users who give ratings higher than 3.5 star and light circles showing users who give ratings lower than 3.5 star
             </span>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="200" valign="bottom" align="right">
-                      <div style="margin-top:30px">
-                        <span class="margin-bold">Color</span>
-                      </div>
-                    </td>
-                  </tr>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="200" valign="bottom" align="right">
+                    <div style="margin-top:30px">
+                      <span class="margin-bold">Color</span>
+                    </div>
+                  </td>
+                </tr>
 
-                </table>
-              </td>
+              </table>
+            </td>
 
-              <td valign="top">
-                <div class="big-label" style="margin-bottom:50px">Threshold Decision</div>
-                <div id="single-histogram0"></div>
-                <div id="single-histogram-legend0" class="histogram-legend"></div>
-              </td>
-              <td width=30>&nbsp;</td>
-              <td valign="top">
-                <div class="big-label" style="margin-bottom:20px;margin-left:10px">Outcome</div>
-                <div id="single-correct0"></div>
-                <div id="single-pies0"></div>
-              </td>
-            </tr>
-          </table>
-        </div>
+            <td valign="top">
+              <div class="big-label" style="margin-bottom:50px">Threshold Decision</div>
+              <div id="single-histogram0"></div>
+              <div id="single-histogram-legend0" class="histogram-legend"></div>
+            </td>
+            <td width=30>&nbsp;</td>
+            <td valign="top">
+              <div class="big-label" style="margin-bottom:20px;margin-left:10px">Outcome</div>
+              <div id="single-correct0"></div>
+              <div id="single-pies0"></div>
+            </td>
+          </tr>
+        </table>
       </div>
     </div>
+  </div>
 
   </div>
 
