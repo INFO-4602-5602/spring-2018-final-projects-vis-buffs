@@ -1,6 +1,9 @@
 #shell {
   padding-left: 2px;
   padding-right: 2px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .vis_title {
