@@ -20,6 +20,13 @@
   font-weight: normal;
 }
 
+/* vis1 */
+
+#vis_1 {
+  width: 900px;
+  height: 500px;
+}
+
 /* .proInfo {
   position: relative;
 }
@@ -324,7 +331,7 @@ nav {
 
 .modal-content {
   width: 1000px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1.0);
 }
 
 .modal-dialog {
@@ -335,4 +342,9 @@ nav {
 .modal-lg {
   width: 1000px;
   max-width: 1200px;
+}
+
+.tt_img {
+  max-height: 150px;
+  cursor: pointer;
 }

@@ -30,19 +30,19 @@
       <!-- Links -->
       <ul class="navbar-nav ml-5">
         <li class="nav-item ml-5">
-          <a class="nav-link" href="#">STORY</a>
+          <a class="nav-link" href="#story">STORY</a>
         </li>
         <li class="nav-item ml-5">
-          <a class="nav-link" href="#">GOAL</a>
+          <a class="nav-link" href="#goal">GOAL</a>
         </li>
         <li class="nav-item ml-5">
-          <a class="nav-link" href="#">DESIGN</a>
+          <a class="nav-link" href="#design">DESIGN</a>
         </li>
         <li class="nav-item ml-5">
-          <a class="nav-link" href="#">VISUALIZATION</a>
+          <a class="nav-link" href="#vis_section_tag">VISUALIZATION</a>
         </li>
         <li class="nav-item ml-5">
-          <a class="nav-link" href="#">SPLIT</a>
+          <a class="nav-link" href="#bestsplit">SPLIT</a>
         </li>
         <li class="nav-item ml-5">
           <a class="nav-link" href="#">MODEL TREE</a>
@@ -80,7 +80,7 @@
       </div>
 
       <!-- design -->
-      <div class="row mt-5" id="story">
+      <div class="row mt-5" id="design">
         <div class="proInfo col-5">
           <!-- <h1 class="text-center">Story</h1> -->
           <img class="img-fluid" src="images/tag3_text.png">
@@ -93,9 +93,10 @@
     </div>
 
     <div class="text-center" id="vis_section_tag">
-      <img class="img-fluid" src="images/yelp-logo.png" style="max-height:100px">
+      <!-- <img class="img-fluid" src="images/yelp-logo.png" style="max-height:100px"> -->
+      <h2 class="vis_title text-center">Visualizations</h2>
     </div>
-    <hr class="mb-5">
+    <hr>
 
     <!-- =======================VIS============================= -->
     <!-- project visualization section -->
@@ -103,28 +104,18 @@
       <!-- please add sub-divs for each content -->
 
       <div class="row">
-        <div class="col-6">
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vis1_Modal">
-              Open modal
-            </button>
+        <div class="col text-center">
+          <img class="img-fluid tt_img  img-thumbnail" src="images/tt1.png" data-toggle="modal" data-target="#vis1_Modal">
+        </div>
+        <div class="col text-center">
+          <img class="img-fluid tt_img img-thumbnail" src="images/tt2.png" data-toggle="modal" data-target="#vis2_Modal">
+        </div>
 
+        <div class="col text-center">
+          <img class="img-fluid tt_img img-thumbnail" src="images/tt3.png" data-toggle="modal" data-target="#vis3_Modal">
         </div>
-        <div class="col-6">
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vis2_Modal">
-              Open modal
-            </button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6">
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vis3_Modal">
-              Open modal
-            </button>
-        </div>
-        <div class="col-6">
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vis4_Modal">
-              Open modal
-            </button>
+        <div class="col text-center">
+          <img class="img-fluid tt_img img-thumbnail" src="images/tt4.png" data-toggle="modal" data-target="#vis4_Modal">
         </div>
       </div>
     </div>
@@ -136,8 +127,7 @@
         <div class="modal-content ">
           <!-- Modal body -->
           <div class="proVis" id="vis_1">
-            <h2 class="vis_title text-center">Restaurant Category and Yelp Rating</h2>
-
+            <h2 id="viss" class="vis_title text-center">Restaurant Category and Yelp Rating</h2>
           </div>
         </div>
 
@@ -219,12 +209,13 @@
       </div>
     </div>
   </div>
+  <hr>
 
 
 
   <!-- =======================MODEL TREE============================= -->
   <!-- prediction testing section -->
-  <div class="container" id="project_exam">
+  <div class="container mt-5" id="project_exam">
     <!-- please add sub-divs for each content -->
     <div class="bestsplit" id="bestsplit">
       <h2 class="vis_title text-center">Best Split</h2>

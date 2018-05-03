@@ -17,11 +17,11 @@ d3.csv("data/restaurant_category_rating_sel_avg.csv", function(data) {
   var axisMargin = 20,
     margin = 40,
     valueMargin = 4,
-    width = parseInt('960px', 10),
-    height = parseInt('600px', 10),
+    width = parseInt(d3.select('#vis_1').style('width'), 10),
+    height = parseInt(d3.select('#vis_1').style('height'), 10),
     barHeight = (height - axisMargin - margin * 2) * 0.4 / data.length,
     barPadding = (height - axisMargin - margin * 2) * 0.6 / data.length,
-    data, bar, svg, scale, xAxis, labelWidth = 0;
+    data, bar, svg, scale, xAxis, labelWidth = 120;
 
   max = d3.max(data, function(d) {
     return d.avg;
@@ -29,8 +29,8 @@ d3.csv("data/restaurant_category_rating_sel_avg.csv", function(data) {
 
   svg = d3.select('#vis_1')
     .append("svg")
-    .attr("width", width)
-    .attr("height", height);
+    .attr("width", width - margin)
+    .attr("height", height - margin);
 
   bar = svg.selectAll("g")
     .data(data)
@@ -49,8 +49,6 @@ d3.csv("data/restaurant_category_rating_sel_avg.csv", function(data) {
     .attr("dy", ".35em") //vertical align middle
     .text(function(d) {
       return d.category;
-    }).each(function() {
-      labelWidth = Math.ceil(Math.max(labelWidth, this.getBBox().width));
     });
 
   scale = d3.scale.linear()
@@ -59,11 +57,11 @@ d3.csv("data/restaurant_category_rating_sel_avg.csv", function(data) {
 
   xAxis = d3.svg.axis()
     .scale(scale)
-    .tickSize(-height + 2 * margin + axisMargin)
+    .tickSize(-height + margin + axisMargin)
     .orient("bottom");
 
   bar.append("rect")
-    .attr("transform", "translate(" + labelWidth + ", 0)")
+    .attr("transform", "translate(" + 120 + ", 0)")
     .attr("height", barHeight)
     .attr("width", function(d) {
       return scale(d.avg);
@@ -79,7 +77,8 @@ d3.csv("data/restaurant_category_rating_sel_avg.csv", function(data) {
       return (d.avg);
     })
     .attr("x", function(d) {
-      var width = this.getBBox().width;
+      //var width = this.getBBox().width;
+      var width = 120;
       return Math.max(width + valueMargin, scale(d.avg));
     });
 
