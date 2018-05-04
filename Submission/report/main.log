@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.10)  4 MAY 2018 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.10)  4 MAY 2018 12:10
 entering extended mode
 **./main.tex
 (main.tex
@@ -1033,45 +1033,78 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-(intro.tex) (related.tex) (design.tex) (modeling.tex) (results.tex)
-(discussion.tex) (main.bbl
+(intro.tex) (related.tex) (design.tex) (modeling.tex
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 6.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.3pt on input line 6.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 5.5pt on input line 6.
+
+<figures/DT.png, id=56, 361.35pt x 341.275pt>
+File: figures/DT.png Graphic file (type png)
+ <use figures/DT.png>
+Package pdftex.def Info: figures/DT.png used on input line 11.
+(pdftex.def)             Requested size: 170.71652pt x 161.23245pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 19.
+) (results.tex [1.1{C:/Users/yawen/AppData/Local/MiKTeX/2.9/pdftex/config/pdfte
+x.map}
+
+]) (discussion.tex) (main.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 40.
 
-) [1.1{C:/Users/yawen/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+)
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 59.
+ [2.2
 
-]
+ <./figures/DT.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
-
-(main.aux)
+ (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2600FC54FAD931E492D23C69E1B03BF3;886.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 565BF938DAF626F83F0C3BD895414A9E;1325
+(rerunfilecheck)             After:  9FE5B023D3688B0592992F5300987D46;1448.
  ) 
 Here is how much of TeX's memory you used:
- 18025 strings out of 493328
- 270008 string characters out of 3139124
- 388380 words of memory out of 3000000
- 20931 multiletter control sequences out of 15000+200000
- 102022 words of font info for 153 fonts, out of 3000000 for 9000
+ 18146 strings out of 493328
+ 272630 string characters out of 3139124
+ 389485 words of memory out of 3000000
+ 20983 multiletter control sequences out of 15000+200000
+ 132432 words of font info for 199 fonts, out of 3000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,11n,94p,1071b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_nao
-oyc.enc}{C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lb
-tn_7grukw.enc}{C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libert
-ine/lbtn_nh77jq.enc}{C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/
-libertine/lbtn_76gpa5.enc}{C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/enc/
-dvips/libertine/lbtn_25tcsq.enc}<C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/font
-s/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/yawen/AppData/Roaming/MiKT
-eX/2.9/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/yawen/AppData/R
-oaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/yaw
-en/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTI.pfb><
-C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/newtx/rtxmi7.pfb>
-Output written on main.pdf (1 page, 304936 bytes).
+ 60i,11n,94p,1071b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_25t
+csq.enc}{C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lb
+tn_oexx6f.enc}{C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libert
+ine/lbtn_naooyc.enc}{C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/
+libertine/lbtn_7grukw.enc}{C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/enc/
+dvips/libertine/lbtn_nh77jq.enc}{C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/font
+s/enc/dvips/libertine/lbtn_76gpa5.enc}<C:/Users/yawen/AppData/Roaming/MiKTeX/2.
+9/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/yawen/AppData/Roaming
+/MiKTeX/2.9/fonts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/yawen/AppD
+ata/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users
+/yawen/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineTB.p
+fb><C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinL
+ibertineTI.pfb><C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/ne
+wtx/rtxmi7.pfb>
+Output written on main.pdf (2 pages, 362632 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 29773 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 123 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 41578 words of extra memory for PDF output out of 42996 (max. 10000000)
 
