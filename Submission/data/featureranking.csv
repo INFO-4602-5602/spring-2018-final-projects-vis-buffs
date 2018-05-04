@@ -1,0 +1,23 @@
+event,run
+polarity,85
+uc avg star,67
+uc review count,42
+subjectivity,42
+business stars,29
+user_avg star,26
+user_useful,16
+review_useful,16
+review_tfidf,16
+user review count,16
+user_compliment,14
+review_cool,11
+review_funny,10
+uc_avg review useful,8
+user_funny,8
+user_fans,6
+user_cool,4
+uc_avg_review_cool,2
+uc_avg_review_funny,1
+location,1
+distance to CBD,1
+meaningful word count,1

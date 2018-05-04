@@ -375,3 +375,44 @@ nav {
   stroke: #ccc;
   stroke-width: 2px;
 }
+
+.x-tick {
+      stroke: black;
+      opacity: 0.5;
+    }
+    
+    .x-tick-long {
+      stroke: black;
+      stroke-dasharray: 5, 5;
+      opacity: 0.3;
+    }
+    
+    .y-tick circle {
+      fill: grey;
+      font-size: 10px;
+      opacity: 0.1;
+    }
+    
+    .y-tick text {
+      font-size: 10px;
+      opacity: 0.5;
+    }
+    
+    .label text {
+      font-size: 10px;
+    }
+    
+    .dot-run {
+      fill: #ef0b0b;
+    }
+    
+    .runs {
+      fill: #ef0b0b;
+      fill-opacity: 0.35;
+      stroke: #ef0b0b;
+      stroke-width: 1px;
+    }
+    
+    .hover-dot {
+      opacity: 0;
+    }
