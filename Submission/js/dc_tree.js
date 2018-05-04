@@ -58,14 +58,14 @@ var tree = d3.layout.tree()
 
 var diagonal = d3.svg.diagonal()
   .projection(function(d) {
-    return [d.x, d.y];
+    return [1.8 * d.x, d.y];
   });
 
 var t_svg = d3.select("#dc_tree").append("svg")
   .attr("width", width + margin.right + margin.left)
   .attr("height", height + margin.top + margin.bottom)
   .append("g")
-  .attr("transform", "translate(" + 330 + "," + margin.top + ")");
+  .attr("transform", "translate(" + (margin.left + 30) + "," + margin.top + ")");
 
 root = treeData[0];
 
@@ -92,7 +92,7 @@ function update(source) {
   var nodeEnter = node.enter().append("g")
     .attr("class", "tree_node")
     .attr("transform", function(d) {
-      return "translate(" + d.x + "," + d.y + ")";
+      return "translate(" + 1.8 * d.x + "," + d.y + ")";
     });
 
   nodeEnter.append("circle")
