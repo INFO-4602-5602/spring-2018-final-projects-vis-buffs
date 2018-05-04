@@ -61,7 +61,7 @@
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
     
     var center = f_svg.append("g")
-      .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+      .attr("transform", "translate(" + width / 1.7 + "," + height / 2 + ")");
     
     
     var radius = Math.min(width, height) / 2 + 10;
