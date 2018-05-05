@@ -191,7 +191,7 @@ setInterval(function ppp() {
   }
   intervals += 1;
   if (intervals > 65) intervals = 65;
-}, 100);
+}, 120);
 
 function dc_start() {
   intervals = 0;
@@ -205,7 +205,7 @@ function moveNode(node, route) {
 
   function move() {
     node.transition()
-      .duration(50)
+      .duration(100)
       .attrTween("transform", translateAlong(ballpath[route[i]]))
       .each("end", function() {
         if (i < n - 1) {
