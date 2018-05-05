@@ -37,4 +37,97 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{??}{yel}{2018}]%
+        {yelpdata}
+ \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{https://www.yelp.com/dataset}.
+\newblock  (\bibinfo{year}{2018}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chen and Guestrin}{Chen and Guestrin}{2016}]%
+        {chen2016xgboost}
+\bibfield{author}{\bibinfo{person}{Tianqi Chen} {and} \bibinfo{person}{Carlos
+  Guestrin}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Xgboost: A scalable tree boosting system}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 22nd acm sigkdd international
+  conference on knowledge discovery and data mining}}. ACM,
+  \bibinfo{pages}{785--794}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cho, Kim, and Kim}{Cho et~al\mbox{.}}{2002}]%
+        {cho2002personalized}
+\bibfield{author}{\bibinfo{person}{Yoon~Ho Cho}, \bibinfo{person}{Jae~Kyeong
+  Kim}, {and} \bibinfo{person}{Soung~Hie Kim}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{A personalized recommender system based on web
+  usage mining and decision tree induction}.
+\newblock \bibinfo{journal}{{\em Expert systems with Applications\/}}
+  \bibinfo{volume}{23}, \bibinfo{number}{3} (\bibinfo{year}{2002}),
+  \bibinfo{pages}{329--342}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Das and Gamb{\"a}ck}{Das and
+  Gamb{\"a}ck}{2012}]%
+        {das2012sentimantics}
+\bibfield{author}{\bibinfo{person}{Amitava Das} {and}
+  \bibinfo{person}{Bj{\"o}rn Gamb{\"a}ck}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Sentimantics: conceptual spaces for lexical
+  sentiment polarity representation with contextuality}. In
+  \bibinfo{booktitle}{{\em Proceedings of the 3rd Workshop in Computational
+  Approaches to Subjectivity and Sentiment Analysis}}. Association for
+  Computational Linguistics, \bibinfo{pages}{38--46}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Montoyo, Mart{\'\i}Nez-Barco, and
+  Balahur}{Montoyo et~al\mbox{.}}{2012}]%
+        {montoyo2012subjectivity}
+\bibfield{author}{\bibinfo{person}{Andr{\'e}s Montoyo},
+  \bibinfo{person}{Patricio Mart{\'\i}Nez-Barco}, {and}
+  \bibinfo{person}{Alexandra Balahur}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{title}{Subjectivity and sentiment analysis: An overview of
+  the current state of the area and envisaged developments}.
+\newblock   (\bibinfo{year}{2012}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Portugal, Alencar, and Cowan}{Portugal
+  et~al\mbox{.}}{2017}]%
+        {portugal2017use}
+\bibfield{author}{\bibinfo{person}{Ivens Portugal}, \bibinfo{person}{Paulo
+  Alencar}, {and} \bibinfo{person}{Donald Cowan}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{The use of machine learning algorithms in
+  recommender systems: a systematic review}.
+\newblock \bibinfo{journal}{{\em Expert Systems with Applications\/}}
+  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sarwar, Karypis, Konstan, and Riedl}{Sarwar
+  et~al\mbox{.}}{2001}]%
+        {sarwar2001item}
+\bibfield{author}{\bibinfo{person}{Badrul Sarwar}, \bibinfo{person}{George
+  Karypis}, \bibinfo{person}{Joseph Konstan}, {and} \bibinfo{person}{John
+  Riedl}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Item-based collaborative filtering recommendation
+  algorithms}. In \bibinfo{booktitle}{{\em Proceedings of the 10th
+  international conference on World Wide Web}}. ACM, \bibinfo{pages}{285--295}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Spackman}{Spackman}{1989}]%
+        {spackman1989signal}
+\bibfield{author}{\bibinfo{person}{Kent~A Spackman}.}
+  \bibinfo{year}{1989}\natexlab{}.
+\newblock \showarticletitle{Signal detection theory: Valuable tools for
+  evaluating inductive learning}. In \bibinfo{booktitle}{{\em Proceedings of
+  the sixth international workshop on Machine learning}}. Elsevier,
+  \bibinfo{pages}{160--163}.
+\newblock
+
+
 \end{thebibliography}
