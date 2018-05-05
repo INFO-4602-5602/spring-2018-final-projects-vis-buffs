@@ -144,23 +144,23 @@ function update(source) {
 //////////////dc tree test///////////////////
 var ll_circle = t_svg.append("circle")
   .attr("r", 6.5)
-  .attr("fill", "blue")
+  .attr("fill", "red")
   .attr("transform", "translate(305," + 0 + ")");
 var lr_circle = t_svg.append("circle")
   .attr("r", 6.5)
-  .attr("fill", "blue")
+  .attr("fill", "black")
   .attr("transform", "translate(305," + 0 + ")");
 var rll_circle = t_svg.append("circle")
   .attr("r", 6.5)
-  .attr("fill", "blue")
+  .attr("fill", "red")
   .attr("transform", "translate(305," + 0 + ")");
 var rlr_circle = t_svg.append("circle")
   .attr("r", 6.5)
-  .attr("fill", "blue")
+  .attr("fill", "black")
   .attr("transform", "translate(305," + 0 + ")");
 var rr_circle = t_svg.append("circle")
   .attr("r", 6.5)
-  .attr("fill", "blue")
+  .attr("fill", "black")
   .attr("transform", "translate(305," + 0 + ")");
 
 
