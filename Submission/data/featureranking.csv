@@ -12,12 +12,12 @@ user review count,16
 user_compliment,14
 review_cool,11
 review_funny,10
-uc_avg review useful,8
+uc-review useful,8
 user_funny,8
 user_fans,6
 user_cool,4
-uc_avg_review_cool,2
-uc_avg_review_funny,1
+uc-review_cool,2
+uc-eview_funny,1
 location,1
-distance to CBD,1
+neighborhood-related,1
 meaningful word count,1
