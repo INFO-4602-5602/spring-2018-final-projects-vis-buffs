@@ -3,6 +3,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.metrics import confusion_matrix
+import scipy.stats as stats
 
 if __name__ == "__main__":
 
@@ -37,6 +38,16 @@ if __name__ == "__main__":
         total = tn + fp + fn + tp
         correct = float(tn + tp)/total*100
         incorrect = float(fp + fn)/total*100
-        print(correct, incorrect)
+        # print(correct, incorrect)
 
     # cat_data_split.to_csv("../data/rating_user_avg_star.csv")
+
+    # test normal distribution
+    user_review_0 = cat_data_split.loc[cat_data_split['review_stars_bin'] == 0, 'user_average_stars'].tolist()
+    user_review_1 = cat_data_split.loc[cat_data_split['review_stars_bin'] == 1, 'user_average_stars'].tolist()
+    # print(len(user_review_0)) -- 10723
+    # print(len(user_review_1)) -- 13425
+    # print(np.mean(user_review_0)) -- 3.36
+    # print(np.mean(user_review_1)) -- 3.67
+
+    print(stats.normaltest(user_review_1))
