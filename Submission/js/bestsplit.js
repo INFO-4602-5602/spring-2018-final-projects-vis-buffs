@@ -35,81 +35,18 @@ function main() {
   distributionExample0.classify(0);
   distributionExample1.classify(0);
 
-  // Create optimizer for models.
- // var optimizer = Optimizer(comparisonExample0, comparisonExample1, 1);
-
-  // Buttons to activate different classification strategies.
-  //document.getElementById('group-unaware').onclick = optimizer.groupUnaware;
-  //document.getElementById('max-profit').onclick = optimizer.maximizeProfit;
-  //document.getElementById('demographic-parity').onclick =
-      //optimizer.demographicParity;
-  //document.getElementById('equal-opportunity').onclick =
-      //optimizer.equalOpportunity;
-
   // Make correctness matrices.
   createCorrectnessMatrix('single-correct0', singleModel);
-  //createCorrectnessMatrix('correct0', comparisonExample0);
-  //createCorrectnessMatrix('correct1', comparisonExample1);
-
   // Make histograms.
-  //createHistogram('plain-histogram0', distributionExample0, true);
-  //createHistogram('plain-histogram1', distributionExample1, true);
   createHistogram('single-histogram0', singleModel);
-  //createHistogram('histogram0', comparisonExample0, false, true);
-  //createHistogram('histogram1', comparisonExample1, false, true);
-
   // Add legends.
-  //createSimpleHistogramLegend('plain-histogram-legend0', 0);
-  //createSimpleHistogramLegend('plain-histogram-legend1', 0);
-  //createHistogramLegend('histogram-legend0', 0);
   createHistogramLegend('single-histogram-legend0', 0);
-  //createHistogramLegend('histogram-legend1', 1);
-
   // Create pie charts
   createRatePies('single-pies0', singleModel, PIE_COLORS[0]);
-  //createRatePies('pies0', comparisonExample0, PIE_COLORS[0], true);
-  //createRatePies('pies1', comparisonExample1, PIE_COLORS[1], true);
-
-  /*function updateTextDisplays(event) {
-    // Update number readouts.
-    function display(id, value) {
-      var element = document.getElementById(id);
-      element.innerHTML = '' + value;
-      element.style.color = value < 0 ? '#f00' : '#000';
-    }
-    display('single-profit0', singleModel.profit);
-    //display('profit0', comparisonExample0.profit);
-    //display('profit1', comparisonExample1.profit);
-    //display('total-profit', comparisonExample0.profit +
-        //comparisonExample1.profit);
-
-    // Update micro-story annotations.
-    function annotate(id) {
-      var annotations = document.getElementsByClassName(id + '-annotation');
-      for (var i = 0; i < annotations.length; i++) {
-        annotations[i].style.visibility = id == event ? 'visible' : 'hidden';
-        annotations[i].style.display = id == event ? 'block' : 'none';
-      }
-    }
-    // Annotate each of the criteria defined by our optimizer.
-    annotate(MAX_PROFIT);
-    annotate(GROUP_UNAWARE);
-    annotate(DEMOGRAPHIC_PARITY);
-    annotate(EQUAL_OPPORTUNITY);
-  }*/
-
-  // Update text whenever any of the interactive models change.
-  //singleModel.addListener(updateTextDisplays);
-  //comparisonExample0.addListener(updateTextDisplays);
-  //comparisonExample1.addListener(updateTextDisplays);
 
   // Initialize everything.
-  //comparisonExample0.classify(50);
-  //comparisonExample1.classify(50);
   singleModel.classify(50);
   singleModel.notifyListeners();
-  //comparisonExample0.notifyListeners();
-  //comparisonExample1.notifyListeners();
 }
 
 // Models for threshold classifiers
@@ -125,7 +62,6 @@ var Item = function(category, value, score) {
   this.predicted = value;
   this.score = score;
 };
-
 
 // A group model defines a group of items, with a threshold
 // for a classifier and associated values for true and
@@ -237,96 +173,6 @@ function positiveRate(items) {
   });
   return totalGood / items.length;
 }
-
-
-// Constants for types of optimization.
-/*var MAX_PROFIT = 'max-profit';
-var GROUP_UNAWARE = 'group-unaware';
-var DEMOGRAPHIC_PARITY = 'demographic-parity';
-var EQUAL_OPPORTUNITY = 'equal-opportunity';
-
-// Returns an object with four functions representing the four
-// ways to optimize between two models that are described
-// in the blog post.
-function Optimizer(model0, model1, stepSize) {
-  function classify(t0, t1) {
-    model0.classify(t0);
-    model1.classify(t1);
-    return model0.profit + model1.profit;
-  }
-
-  // Get extents of item scores, and use for range of search.
-  function getScore(item) {return item.score;}
-  var extent0 = d3v4.extent(model0.items, getScore);
-  var extent1 = d3v4.extent(model1.items, getScore);
-  // Add to max value to include possibility of all-negative threshold.
-  extent0[1] += stepSize;
-  extent1[1] += stepSize;
-
-  // Maximize utility according to the given constraint.
-  // The constraint function takes the two thresholds as arguments.
-  // Although an exhautive search works fine here, note that there
-  // is a huge amount of room for optimization. See paper by Hardt et al.
-  // for additional algorithmic discussion.
-  function maximizeWithConstraint(constraint, event) {
-    var maxProfit = -Infinity;
-    var bestT0;
-    var bestT1;
-    for (var t0 = extent0[0]; t0 <= extent0[1]; t0 += stepSize) {
-      for (var t1 = extent1[0]; t1 <= extent1[1]; t1 += stepSize) {
-        var p = classify(t0, t1);
-        if (!constraint(t0, t1)) {continue;}
-        if (p > maxProfit) {
-          maxProfit = p;
-          bestT0 = t0;
-          bestT1 = t1;
-        }
-      }
-    }
-    classify(bestT0, bestT1);
-    model0.notifyListeners(event);
-    model1.notifyListeners(event);
-  }
-  // Given our set-up, we can't always hope for exact equality
-  // of various ratios.
-  // We test for two numbers to be close enough that they look
-  // the same when formatted for display.
-  // This is not technically optimal mathematically but definitely
-  // optimal pedagogically!
-  function approximatelyEqual(x, y) {
-    return Math.round(100 * x) == Math.round(100 * y);
-  }
-
-  // Return a bundle of optimizer functiond,
-  return {
-    // Maximize utility, allowing any combination of thresholds.
-    maximizeProfit: function() {
-      maximizeWithConstraint(function() {return true;}, MAX_PROFIT);
-    },
-    // Group unware: thresholds must be equal in both groups.
-    groupUnaware: function() {
-      maximizeWithConstraint(function(t0, t1) {
-        return t0 == t1;
-      }, GROUP_UNAWARE);
-    },
-    // Demographic parity: true + false positive rates must be the same.
-    demographicParity: function() {
-      maximizeWithConstraint(function(t0, t1) {
-        var pr0 = positiveRate(model0.items);
-        var pr1 = positiveRate(model1.items);
-        return approximatelyEqual(pr0, pr1);
-      }, DEMOGRAPHIC_PARITY);
-    },
-    // Equal opportunity: true positive rates must be the same.
-    equalOpportunity: function() {
-    maximizeWithConstraint(function(t0, t1) {
-        var tpr0 = tpr(model0.items);
-        var tpr1 = tpr(model1.items);
-        return approximatelyEqual(tpr0, tpr1);
-      }, EQUAL_OPPORTUNITY);
-    }
-  };
-}*/
 
 // Interactive diagrams for fairness demo.
 // These are lightweight components customized

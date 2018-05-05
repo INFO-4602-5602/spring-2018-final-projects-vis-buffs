@@ -50,7 +50,7 @@
         <li class="nav-item ml-5">
           <a class="nav-link" href="#dc_tree">TREE MODEL</a>
         </li>
-        
+
       </ul>
     </nav>
     <!-- =======================Story============================= -->
@@ -225,60 +225,27 @@
       <h2 class="vis_title text-center">Best Split</h2>
       <div onload="main()">
         <script src="js/d3v4.js"></script>
-        <script src="add/bundle.js"></script>
-
+        <script src="js/bestsplit.js"></script>
         <table>
           <tr>
             <td>&nbsp;</td>
             <td colspan=3>
               <div class="figure-title">
-                Simulating best split
+                Best split on user average star
               </div>
               <div class="figure-caption">
-                Drag the black threshold bars left or right to change the cut-offs for business average ratings.<br>
+                Drag the black threshold bars to change the cut-offs for user average stars.<br>
               </div>
             </td>
           </tr>
           <tr>
-            <td valign="top">
-              <table>
-                <tr>
-                  <td width="200" valign="top" align="right">
-                    <div style="margin-top:44px">
-                      <span class="margin-bold">Business average rating</span><br>
-                      <span class="margin-text">
-            higher business average ratings represent users' giving higher rating
-            </span>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td width="200" valign="bottom" align="right">
-                    <div style="margin-top:160px">
-                      <span class="margin-text">
-            each circle represents a user,
-            with dark circles showing users who give ratings higher than 3.5 star and light circles showing users who give ratings lower than 3.5 star
-            </span>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td width="200" valign="bottom" align="right">
-                    <div style="margin-top:30px">
-                      <span class="margin-bold">Color</span>
-                    </div>
-                  </td>
-                </tr>
-
-              </table>
-            </td>
-
+            <td width=180>&nbsp;</td>
             <td valign="top">
               <div class="big-label" style="margin-bottom:50px">Threshold Decision</div>
               <div id="single-histogram0"></div>
               <div id="single-histogram-legend0" class="histogram-legend"></div>
             </td>
-            <td width=30>&nbsp;</td>
+
             <td valign="top">
               <div class="big-label" style="margin-bottom:20px;margin-left:10px">Outcome</div>
               <div id="single-correct0"></div>
@@ -297,7 +264,7 @@
         <h2 class="vis_title text-center">Tree Model</h2>
       </div>
 
-      
+
     </div>
   </div>
 
