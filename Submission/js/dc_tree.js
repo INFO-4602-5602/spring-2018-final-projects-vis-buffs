@@ -57,7 +57,7 @@ var margin = {
     left: 120
   },
   width = 960 - margin.right - margin.left,
-  height = 500 - margin.top - margin.bottom;
+  height = 400 - margin.top - margin.bottom;
 
 var i = 0;
 
@@ -68,12 +68,16 @@ var diagonal = d3.svg.diagonal()
   .projection(function(d) {
     return [1.8 * d.x, d.y];
   });
+//console.log(diagonal);
 
 var t_svg = d3.select("#dc_tree").append("svg")
   .attr("width", width + margin.right + margin.left)
   .attr("height", height + margin.top + margin.bottom)
   .append("g")
-  .attr("transform", "translate(" + (margin.left + 30) + "," + margin.top + ")");
+  .attr("transform", "translate(" + (margin.left + 120) + "," + margin.top + ")");
+
+
+var ballpath = [];
 
 root = treeData[0];
 
@@ -108,7 +112,7 @@ function update(source) {
     .style("fill", function(d) {
       return d.type
     });
-  //.style("fill", "#fff");
+
 
   nodeEnter.append("text")
     .attr("y", function(d) {
@@ -124,11 +128,99 @@ function update(source) {
   // Declare the links…
   var link = t_svg.selectAll("path.link")
     .data(links, function(d) {
+      //console.log(d.target.id);
       return d.target.id;
     });
 
+
   // Enter the links.
-  link.enter().insert("path", "g")
+  var tree_path = link.enter().insert("path", "g")
     .attr("class", "tree_link")
     .attr("d", diagonal);
+
+  ballpath = tree_path[0];
+
+}
+
+
+// var ll = "M396,0C396,50 198,50 198,100 M198,100C198,150 132,150 132,200";
+// var ll_path = t_svg.append("path")
+//   .attr("d", ll)
+//   .attr("stroke", "blue")
+//   .attr("stroke-width", 2)
+//   .attr("fill", "none");
+
+//console.log(ll_path);
+
+
+var ll_circle = t_svg.append("circle")
+  .attr("r", 6.5)
+  .attr("fill", "blue")
+  .attr("transform", "translate(305," + 0 + ")");
+var lr_circle = t_svg.append("circle")
+  .attr("r", 6.5)
+  .attr("fill", "blue")
+  .attr("transform", "translate(305," + 0 + ")");
+var rll_circle = t_svg.append("circle")
+  .attr("r", 6.5)
+  .attr("fill", "blue")
+  .attr("transform", "translate(305," + 0 + ")");
+var rlr_circle = t_svg.append("circle")
+  .attr("r", 6.5)
+  .attr("fill", "blue")
+  .attr("transform", "translate(305," + 0 + ")");
+var rr_circle = t_svg.append("circle")
+  .attr("r", 6.5)
+  .attr("fill", "blue")
+  .attr("transform", "translate(305," + 0 + ")");
+
+
+//dcTree(ballpath[6]);
+
+var ll = [6, 4];
+var lr = [6, 5];
+var rll = [7, 2, 0];
+var rlr = [7, 2, 1];
+var rr = [7, 3];
+
+setInterval(function ppp() {
+  moveNode(ll_circle, ll);
+}, 100);
+
+
+function moveNode(node, route) {
+  console.log("hi");
+  var n = route.length;
+  var i = 0;
+  move();
+
+  function move() {
+    node.transition()
+      .duration(50)
+      .attrTween("transform", translateAlong(ballpath[route[i]]))
+      .each("end", function() {
+        if (i < n - 1) {
+          i += 1;
+          move();
+        }
+      });
+  }
+}
+
+// function transition(dcpath) {
+//   t_circle.transition()
+//     .duration(500)
+//     .attrTween("transform", translateAlong(dcpath))
+//     .each("end", transition);
+// }
+
+// Returns an attrTween for translating along the specified path element.
+function translateAlong(path) {
+  var l = path.getTotalLength();
+  return function(d, i, a) {
+    return function(t) {
+      var p = path.getPointAtLength(t * l);
+      return "translate(" + p.x + "," + p.y + ")";
+    };
+  };
 }
