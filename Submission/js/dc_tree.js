@@ -1,39 +1,47 @@
 var treeData = [{
   "name": "Top Level",
   "parent": "null",
+  "type": "orange",
   "children": [{
       "name": "Level 2: A",
       "parent": "Top Level",
+      "type": "red",
       "children": [{
           "name": "Level 3: A",
-          "parent": "Level 2: A"
+          "parent": "Level 2: A",
+          "type": "red"
         },
         {
           "name": "Level 3: B",
           "parent": "Level 2: A",
-
+          "type": "black",
         }
       ]
     },
     {
       "name": "Level 2: B",
       "parent": "Top Level",
+      "type": "black",
       "children": [{
           "name": "Level 3: C",
           "parent": "Level 2: A",
+          "type": "red",
           "children": [{
               "name": "Level 4: A",
-              "parent": "Level 3: B"
+              "parent": "Level 3: B",
+              "type": "red",
             },
             {
               "name": "Level 4: B",
-              "parent": "Level 3: B"
+              "parent": "Level 3: B",
+              "type": "black",
             }
           ]
         },
         {
           "name": "Level 3: D",
-          "parent": "Level 2: A"
+          "parent": "Level 2: A",
+          "type": "black",
         }
       ]
     }
@@ -97,7 +105,10 @@ function update(source) {
 
   nodeEnter.append("circle")
     .attr("r", 10)
-    .style("fill", "#fff");
+    .style("fill", function(d) {
+      return d.type
+    });
+  //.style("fill", "#fff");
 
   nodeEnter.append("text")
     .attr("y", function(d) {
