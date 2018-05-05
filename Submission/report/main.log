@@ -1,32 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.8)  5 MAY 2018 13:59
-entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
-**main.tex
-(./main.tex
-LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(./acmart.cls
-Document Class: acmart 2017/08/29 v1.46 Typesetting articles for Association of
- Computing Machinery
-(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks14
-\XKV@tempa@toks=\toks15
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count79
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.10)  4 MAY 2018 21:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.10)  5 MAY 2018 15:39
 entering extended mode
 **./main.tex
 (main.tex
@@ -49,7 +21,6 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\xstring\xstring.sty
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\generic\xstring\xstring.tex
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 \@xs@message=\write3
 \integerpart=\count80
 \decimalpart=\count81
@@ -67,52 +38,29 @@ Package acmart Info: Not using authordraft mode on input line 131.
 Class acmart Info: Using format sigconf, number 4 on input line 140.
 Class acmart Info: Using fontsize 9pt on input line 198.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amscls/amsart.cls
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsart.cls"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Document Class: amsart 2015/03/04 v2.20.2
 \linespacing=\dimen102
 \normalparindent=\dimen103
 \normaltopskip=\skip41
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip42
 
 For additional information on amsmath, use the `?' option.
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen104
 ))
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen105
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count82
@@ -155,17 +103,10 @@ LaTeX Info: Redefining \] on input line 2818.
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 388.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -196,11 +137,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 \thm@headsep=\skip50
 \dth@everypar=\toks26
 )
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.sty
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
 \MT@toks=\toks27
 \MT@count=\count102
@@ -209,12 +146,8 @@ LaTeX Info: Redefining \textls on input line 774.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
 \MT@listname@count=\count103
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype-pdftex
 .def
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 916.
@@ -223,40 +156,6 @@ LaTeX Info: Redefining \lslig on input line 916.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
-))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count104
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/refcount.sty
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/totpages/totpages.sty
-Package: totpages 2005/09/19 v2.00 Totpages Package (muewi)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/environ/environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/trimspaces/trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.cfg
 File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
 ))
@@ -288,23 +187,12 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip52
 \bibsep=\skip53
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count105
 )
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
@@ -313,7 +201,6 @@ Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -352,15 +239,6 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package hobsub Info: Skipping package `refcount' (already loaded).
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
@@ -368,38 +246,25 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen115
 \Hy@linkcounter=\count106
 \Hy@pagecounter=\count107
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count108
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4374
 .
 Package hyperref Info: Option `unicode' set `true' on input line 4374.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/puenc.def
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: puenc.def 2017/03/14 v6.85a Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Hyper figures OFF on input line 4498.
@@ -411,11 +276,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count109
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -440,38 +301,18 @@ LaTeX Info: Redefining \pageref on input line 6432.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count114
 \c@bookmark@seq@number=\count115
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip54
 )
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -482,33 +323,21 @@ Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 \Gread@gobject=\count116
 ))
 \Gin@req@height=\dimen119
 \Gin@req@width=\dimen120
 )
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -522,11 +351,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count117
 \Gm@cntv=\count118
@@ -540,20 +365,12 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layouthoffset=\dimen127
 \Gm@layoutvoffset=\dimen128
 \Gm@dimlist=\toks28
-<<<<<<< HEAD
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/ncctools/manyfoot.sty
-Package: manyfoot 2005/09/11 v1.10 Many Footnote Levels Package (NCC)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/ncctools/nccfoots.sty
-=======
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\ncctools\manyfoot.sty
 Package: manyfoot 2005/09/11 v1.10 Many Footnote Levels Package (NCC)
 
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\ncctools\nccfoots.sty
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: nccfoots 2005/02/03 v1.2 NCC Footnotes Package (NCC)
 )
 \MFL@columnwidth=\dimen129
@@ -563,22 +380,6 @@ Package: nccfoots 2005/02/03 v1.2 NCC Footnotes Package (NCC)
 \footinscopyrightpermission=\insert197
 \c@footnotecopyrightpermission=\count121
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
-and LuaTeX
-)
-(/usr/local/texlive/2016/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/cmap/cmap.sty
-Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/libertine/libertine.sty
-Package: libertine 2017/03/22 (Bob Tennent) Supports Libertine and Biolinum fon
-ts for all LaTeX engines.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2017/02/22 v2.0g Standard LaTeX package
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\iftex\iftex.sty
 Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
 and LuaTeX
@@ -593,7 +394,6 @@ ts for all LaTeX engines.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -607,11 +407,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -678,11 +474,7 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/mweights/mweights.sty
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\mweights\mweights.sty
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: mweights 2017/03/30 (Bob Tennent) Support package for multiple-weight 
 font packages. 
 LaTeX Info: Redefining \bfseries on input line 22.
@@ -691,17 +483,10 @@ LaTeX Info: Redefining \rmfamily on input line 38.
 LaTeX Info: Redefining \sffamily on input line 66.
 LaTeX Info: Redefining \ttfamily on input line 94.
 )
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/02/22 v2.0g Standard LaTeX package
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fontaxes/fontaxes.sty
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 )
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\fontaxes\fontaxes.sty
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: fontaxes 2014/03/23 v1.0d Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -710,31 +495,18 @@ LaTeX Info: Redefining \scshape on input line 37.
 )
 LaTeX Info: Redefining \oldstylenums on input line 481.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/inconsolata/zi4.sty
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\libertine\LinLibertine_I.t
 ex)) (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\inconsolata\zi4.sty
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: zi4 2017/01/04 v1.112
 
 `inconsolata-zi4' v1.112, 2017/01/04 Text macros for Inconsolata (msharpe)
 \zifour@ocount=\count122
 )
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/newtxmath.sty
-Package: newtxmath 2017/02/12 v1.518
-
-`newtxmath' v1.518, 2017/02/12 Math macros based on txfonts (msharpe)
-(/usr/local/texlive/2016/texmf-dist/tex/generic/kastrup/binhex.tex)
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\newtxmath.sty
 Package: newtxmath 2017/02/12 v1.518
 
 `newtxmath' v1.518, 2017/02/12 Math macros based on txfonts (msharpe)
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\generic\binhex\binhex.tex)
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 \tx@Isdigit=\count123
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 153.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -853,19 +625,6 @@ LaTeX Info: Redefining \not on input line 2099.
 LaTeX Info: Redefining \textsquare on input line 2120.
 LaTeX Info: Redefining \openbox on input line 2122.
 )
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/02/22 v2.0g Standard LaTeX package
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2017/02/22 v2.0g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)<<t1.cmap>>)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
@@ -877,7 +636,6 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen130
@@ -892,11 +650,7 @@ Package caption Info: AMS or SMF document class.
 \c@ContinuedFloat=\count124
 Package caption Info: hyperref package is loaded.
 )
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count125
 \float@exts=\toks29
@@ -919,11 +673,7 @@ Class acmart Info: Printing bibformat on input line 1247.
 Class acmart Info: Suppressing folios on input line 1254.
 Class acmart Info: Setting authorsperrow to 0 on input line 1257.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/comment/comment.sty
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\comment\comment.sty
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 \CommentStream=\write4
 
 Excluding comment 'comment') Excluding comment 'CCSXML'
@@ -933,11 +683,7 @@ Excluding comment 'comment') Excluding comment 'CCSXML'
 \author@bx@wd=\dimen139
 \author@bx@sep=\skip59
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip60
 \f@ncyO@elh=\skip61
@@ -957,26 +703,16 @@ Special comment 'acks'
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-TLF on 
 input line 2536.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.f
-d
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\libertine\t1linuxlibertine
 t-tlf.fd
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Li
 nuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 2536.
-<<<<<<< HEAD
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2016/04/27 v1.618033 publication quality tables
-=======
 )
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 \heavyrulewidth=\dimen143
 \lightrulewidth=\dimen144
 \cmidrulewidth=\dimen145
@@ -995,11 +731,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count132
 \@thisrulewidth=\dimen155
 )
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/soul/soul.sty
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\soul\soul.sty
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks32
 \SOUL@lasttoken=\toks33
@@ -1013,24 +745,11 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 )
 \c@definition=\count133
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count134
 \c@subtable=\count135
 )
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/units/units.sty
-Package: units 1998/08/04 v0.9b Typesetting units
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/units/nicefrac.sty
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\units\units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
 
@@ -1038,7 +757,6 @@ Package: units 1998/08/04 v0.9b Typesetting units
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\units\nicefrac.sty
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip70
 \L@UnitsRaiseTextstyle=\skip71
@@ -1054,11 +772,7 @@ LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 16.
 LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 16
 .
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/omlnxlmi.fd
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\omlnxlmi.fd
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
 LaTeX Font Info:    ... okay on input line 16.
@@ -1074,11 +788,7 @@ LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 16.
 LaTeX Font Info:    Try loading font information for U+ntxexa on input line 16.
 
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/untxexa.fd
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\untxexa.fd
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
 LaTeX Font Info:    ... okay on input line 16.
@@ -1089,11 +799,7 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 16.
@@ -1101,11 +807,7 @@ LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 16.
 LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 16
 .
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/lmsntxsy.fd
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\lmsntxsy.fd
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
 LaTeX Font Info:    ... okay on input line 16.
@@ -1113,11 +815,7 @@ LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 16.
 LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 1
 6.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/lmxntxexx.fd
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\lmxntxexx.fd
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
 LaTeX Font Info:    ... okay on input line 16.
@@ -1126,13 +824,8 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineT-TLF on
  input line 16.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.
-fd
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\libertine\ot1linuxlibertin
 et-tlf.fd
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
 LinuxLibertineT-TLF.
 )
@@ -1144,50 +837,30 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 <<oml.cmap>>
 LaTeX Font Info:    Try loading font information for U+msa on input line 16.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+ntxmia on input line 16.
 
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/untxmia.fd
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\untxmia.fd
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Try loading font information for U+ntxsym on input line 16.
 
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/untxsym.fd
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\untxsym.fd
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 16.
 
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/newtx/untxsyc.fd
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\newtx\untxsyc.fd
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Info: Redefining \microtypecontext on input line 16.
@@ -1209,17 +882,10 @@ ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box34
 Package hyperref Info: Link coloring OFF on input line 16.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count137
@@ -1233,11 +899,7 @@ LaTeX Info: Redefining \nameref on input line 16.
 \openout5 = `main.out'.
 
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count138
 \scratchdimen=\dimen159
@@ -1250,17 +912,10 @@ LaTeX Info: Redefining \nameref on input line 16.
 \MPnumerator=\count142
 \makeMPintoPDFobject=\count143
 \everyMPtoPDFconversion=\toks38
-<<<<<<< HEAD
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
-=======
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1269,15 +924,7 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-<<<<<<< HEAD
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-=======
 )
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1314,11 +961,7 @@ e
 
 \c@mv@tabular=\count144
 \c@mv@boldtabular=\count145
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/upquote/upquote.sty
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\upquote\upquote.sty
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
@@ -1332,12 +975,8 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Font Info:    Try loading font information for T1+LinuxBiolinumT-TLF on i
 nput line 47.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\libertine\t1linuxbiolinumt
 -tlf.fd
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Lin
 uxBiolinumT-TLF.
 )
@@ -1358,13 +997,8 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
  input line 47.
 
-<<<<<<< HEAD
-(/usr/local/texlive/2016/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT-TLF.
-fd
-=======
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\libertine\ts1linuxlibertin
 et-tlf.fd
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
 File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
@@ -1392,18 +1026,6 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.2pt on input line 47.
-<<<<<<< HEAD
- (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-(./intro.tex) (./related.tex) (./design.tex) (./modeling.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1.1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-=======
 
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -1411,9 +1033,10 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (C:\Users\yawen\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-(intro.tex) (related.tex) (design.tex) (modeling.tex [1.1{C:/Users/yawen/AppDat
-a/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
+(intro.tex) (related.tex) (design.tex) (modeling.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1.1{C:/Users/yawen/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
@@ -1423,121 +1046,108 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 5.5pt on input line 6.
 
-<<<<<<< HEAD
-<figures/DT.png, id=70, 361.35pt x 341.275pt>
+<figures/DT.png, id=73, 361.35pt x 341.275pt>
 File: figures/DT.png Graphic file (type png)
  <use figures/DT.png>
 Package pdftex.def Info: figures/DT.png used on input line 11.
-(pdftex.def)             Requested size: 170.71652pt x 161.23245pt.
+(pdftex.def)             Requested size: 142.26378pt x 134.3621pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 20.
+(Font)              scaled to size 9.0pt on input line 19.
 
-LaTeX Warning: Reference `tb:feature' on page 2 undefined on input line 20.
+LaTeX Warning: Reference `tb:feature' on page 2 undefined on input line 19.
 
-<figures/data.png, id=74, 1308.89pt x 624.3325pt>
+<figures/data.png, id=77, 1308.89pt x 624.3325pt>
 File: figures/data.png Graphic file (type png)
  <use figures/data.png>
-Package pdftex.def Info: figures/data.png used on input line 25.
+Package pdftex.def Info: figures/data.png used on input line 24.
 (pdftex.def)             Requested size: 170.71652pt x 81.42328pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (19.54803pt too wide) in paragraph at lines 35--44
+Overfull \hbox (19.54803pt too wide) in paragraph at lines 34--43
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 51.
+[2.2 <./figures/DT.png> <./figures/data.png>]) (results.tex
+<figures/vis_1.png, id=94, 820.56563pt x 204.01219pt>
+File: figures/vis_1.png Graphic file (type png)
+ <use figures/vis_1.png>
+Package pdftex.def Info: figures/vis_1.png used on input line 13.
+(pdftex.def)             Requested size: 256.0748pt x 63.66338pt.
+
+Overfull \hbox (14.9273pt too wide) in paragraph at lines 13--14
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./results.tex) (./discussion.tex) (./main.bbl
-=======
-<figures/DT.png, id=69, 361.35pt x 341.275pt>
-File: figures/DT.png Graphic file (type png)
- <use figures/DT.png>
-Package pdftex.def Info: figures/DT.png used on input line 11.
-(pdftex.def)             Requested size: 142.26378pt x 134.3621pt.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 18.
-)
-(results.tex) (discussion.tex) (main.bbl
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
+<figures/vis_2.png, id=97, 564.60938pt x 407.27156pt>
+File: figures/vis_2.png Graphic file (type png)
+ <use figures/vis_2.png>
+Package pdftex.def Info: figures/vis_2.png used on input line 26.
+(pdftex.def)             Requested size: 256.0748pt x 184.71846pt.
+
+Overfull \hbox (14.9273pt too wide) in paragraph at lines 26--27
+ [][] 
+ []
+
+<figures/vis_3.png, id=100, 487.06969pt x 432.86719pt>
+File: figures/vis_3.png Graphic file (type png)
+ <use figures/vis_3.png>
+Package pdftex.def Info: figures/vis_3.png used on input line 39.
+(pdftex.def)             Requested size: 256.0748pt x 227.57571pt.
+
+Overfull \hbox (14.9273pt too wide) in paragraph at lines 39--40
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/vis_4.png, id=102, 411.78844pt x 385.44pt>
+File: figures/vis_4.png Graphic file (type png)
+ <use figures/vis_4.png>
+Package pdftex.def Info: figures/vis_4.png used on input line 52.
+(pdftex.def)             Requested size: 256.0748pt x 239.68785pt.
+
+Overfull \hbox (14.9273pt too wide) in paragraph at lines 52--53
+ [][] 
+ []
+
+[3.3 <./figures/vis_1.png> <./figures/vis_2.png>]) (discussion.tex) (main.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 40.
 
-)
-Underfull \vbox (badness 3291) has occurred while \output is active []
-
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 59.
- [2.2 <./figures/DT.png> <./figures/data.png>]
-Underfull \vbox (badness 5893) has occurred while \output is active []
-
- [3.3]
+) [4.4 <./figures/vis_3.png> <./figures/vis_4.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
-<<<<<<< HEAD
-
-(./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4FD71439509A42E6D1B8F4383F39131D;1438.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
-Here is how much of TeX's memory you used:
- 18203 strings out of 493013
- 273796 string characters out of 6133344
- 395736 words of memory out of 5000000
- 21005 multiletter control sequences out of 15000+600000
- 135806 words of font info for 223 fonts, out of 8000000 for 9000
- 1302 hyphenation exceptions out of 8191
- 60i,14n,94p,2278b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc
-}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{
-/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{/
-usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/u
-sr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}</us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertin
-eT.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibe
-rtineTB.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/Li
-nLibertineTI.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/newtx/r
-txmi7.pfb>
-Output written on main.pdf (3 pages, 459245 bytes).
-PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 41583 words of extra memory for PDF output out of 42996 (max. 10000000)
-=======
  (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9FE5B023D3688B0592992F5300987D46;1448.
+(rerunfilecheck)             Checksum: DCFF078520C53DE6B34D9A1E9A798CB7;1602.
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 18167 strings out of 493328
- 273152 string characters out of 3139124
- 390485 words of memory out of 3000000
- 20983 multiletter control sequences out of 15000+200000
- 134343 words of font info for 213 fonts, out of 3000000 for 9000
+ 18237 strings out of 493328
+ 274464 string characters out of 3139124
+ 392972 words of memory out of 3000000
+ 21015 multiletter control sequences out of 15000+200000
+ 136352 words of font info for 227 fonts, out of 3000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,11n,94p,2281b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,14n,94p,2281b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lbtn_oex
 x6f.enc}{C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libertine/lb
 tn_25tcsq.enc}{C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/libert
@@ -1552,10 +1162,9 @@ ata/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users
 fb><C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/libertine/LinL
 ibertineTI.pfb><C:/Users/yawen/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/ne
 wtx/rtxmi7.pfb>
-Output written on main.pdf (2 pages, 365382 bytes).
+Output written on main.pdf (4 pages, 646371 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 41578 words of extra memory for PDF output out of 42996 (max. 10000000)
->>>>>>> 34cdd2bba342691582500f5d973607d718c0cb70
+ 165 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 41611 words of extra memory for PDF output out of 42996 (max. 10000000)
 
