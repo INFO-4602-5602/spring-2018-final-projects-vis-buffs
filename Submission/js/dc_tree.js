@@ -172,29 +172,80 @@ var rll = [7, 2, 0];
 var rlr = [7, 2, 1];
 var rr = [7, 3];
 var intervals = 65;
+var result_count = 0;
+
+
+t_svg.append("text")
+  .attr("x", 88)
+  .attr("y", 260)
+  .attr("class", "test_result")
+  .attr("id", "vll")
+  .text("66");
+
+t_svg.append("text")
+  .attr("x", 200)
+  .attr("y", 260)
+  .attr("class", "test_result")
+  .attr("id", "vlr")
+  .text("66");
+
+t_svg.append("text")
+  .attr("x", 510)
+  .attr("y", 260)
+  .attr("class", "test_result")
+  .attr("id", "vrr")
+  .text("66");
+
+t_svg.append("text")
+  .attr("x", 350)
+  .attr("y", 360)
+  .attr("class", "test_result")
+  .attr("id", "vrll")
+  .text("66");
+
+t_svg.append("text")
+  .attr("x", 460)
+  .attr("y", 360)
+  .attr("class", "test_result")
+  .attr("id", "vrlr")
+  .text("66");
+
 
 setInterval(function ppp() {
   if (intervals < 24) {
     moveNode(ll_circle, ll);
+    d3.select("#vll").text(intervals % 24 + 1);
+    result_count += 1;
   }
   if (intervals < 4) {
     moveNode(lr_circle, lr);
+    d3.select("#vlr").text(intervals % 4 + 1);
+    result_count += 1;
   }
   if (intervals < 1) {
     moveNode(rll_circle, rll);
+    d3.select("#vrll").text("1");
+    result_count += 1;
   }
   if (intervals < 7) {
     moveNode(rlr_circle, rlr);
+    d3.select("#vrlr").text(intervals % 7 + 1);
+    result_count += 1;
   }
   if (intervals < 64) {
     moveNode(rr_circle, rr);
+    d3.select("#vrr").text(intervals % 64 + 1);
+    result_count += 1;
   }
   intervals += 1;
   if (intervals > 65) intervals = 65;
-}, 120);
+  d3.select("#result").text(result_count);
+  d3.select("#total").text("100");
+}, 201);
 
 function dc_start() {
   intervals = 0;
+  result_count = 0;
 }
 
 
@@ -216,12 +267,6 @@ function moveNode(node, route) {
   }
 }
 
-// function transition(dcpath) {
-//   t_circle.transition()
-//     .duration(500)
-//     .attrTween("transform", translateAlong(dcpath))
-//     .each("end", transition);
-// }
 
 // Returns an attrTween for translating along the specified path element.
 function translateAlong(path) {
