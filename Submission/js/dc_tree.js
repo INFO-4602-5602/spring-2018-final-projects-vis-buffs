@@ -132,7 +132,6 @@ function update(source) {
       return d.target.id;
     });
 
-
   // Enter the links.
   var tree_path = link.enter().insert("path", "g")
     .attr("class", "tree_link")
@@ -142,17 +141,7 @@ function update(source) {
 
 }
 
-
-// var ll = "M396,0C396,50 198,50 198,100 M198,100C198,150 132,150 132,200";
-// var ll_path = t_svg.append("path")
-//   .attr("d", ll)
-//   .attr("stroke", "blue")
-//   .attr("stroke-width", 2)
-//   .attr("fill", "none");
-
-//console.log(ll_path);
-
-
+//////////////dc tree test///////////////////
 var ll_circle = t_svg.append("circle")
   .attr("r", 6.5)
   .attr("fill", "blue")
@@ -182,14 +171,34 @@ var lr = [6, 5];
 var rll = [7, 2, 0];
 var rlr = [7, 2, 1];
 var rr = [7, 3];
+var intervals = 65;
 
 setInterval(function ppp() {
-  moveNode(ll_circle, ll);
+  if (intervals < 24) {
+    moveNode(ll_circle, ll);
+  }
+  if (intervals < 4) {
+    moveNode(lr_circle, lr);
+  }
+  if (intervals < 1) {
+    moveNode(rll_circle, rll);
+  }
+  if (intervals < 7) {
+    moveNode(rlr_circle, rlr);
+  }
+  if (intervals < 64) {
+    moveNode(rr_circle, rr);
+  }
+  intervals += 1;
+  if (intervals > 65) intervals = 65;
 }, 100);
+
+function dc_start() {
+  intervals = 0;
+}
 
 
 function moveNode(node, route) {
-  console.log("hi");
   var n = route.length;
   var i = 0;
   move();
