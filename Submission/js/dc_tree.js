@@ -1,46 +1,46 @@
 var treeData = [{
-  "name": "Top Level",
+  "name": "user-category avg rating < -0.326 (scaled)",
   "parent": "null",
   "type": "orange",
   "children": [{
-      "name": "Level 2: A",
+      "name": "polarity < -0.424 (scaled)",
       "parent": "Top Level",
       "type": "red",
       "children": [{
-          "name": "Level 3: A",
-          "parent": "Level 2: A",
+          "name": "Not recommended",
+          "parent": "polarity < -0.424 (scaled)",
           "type": "red"
         },
         {
-          "name": "Level 3: B",
-          "parent": "Level 2: A",
+          "name": "recommended",
+          "parent": "polarity < -0.424 (scaled)",
           "type": "black",
         }
       ]
     },
     {
-      "name": "Level 2: B",
+      "name": "polarity < -1.015 (scaled)",
       "parent": "Top Level",
       "type": "black",
       "children": [{
-          "name": "Level 3: C",
-          "parent": "Level 2: A",
+          "name": "user-category review count < -0.393 (scaled)",
+          "parent": "polarity < -1.015 (scaled)",
           "type": "red",
           "children": [{
-              "name": "Level 4: A",
-              "parent": "Level 3: B",
+              "name": "Not recommended",
+              "parent": "user-category review count < -0.393 (scaled)",
               "type": "red",
             },
             {
-              "name": "Level 4: B",
-              "parent": "Level 3: B",
+              "name": "Recommended",
+              "parent": "user-category review count < -0.393 (scaled)",
               "type": "black",
             }
           ]
         },
         {
-          "name": "Level 3: D",
-          "parent": "Level 2: A",
+          "name": "Recommended",
+          "parent": "polarity < -1.015 (scaled)",
           "type": "black",
         }
       ]
