@@ -240,10 +240,10 @@ setInterval(function ppp() {
   intervals += 1;
   if (intervals > 65) intervals = 65;
   d3.select("#result").text(result_count);
-  d3.select("#total").text("100");
 }, 201);
 
 function dc_start() {
+  d3.select("#total").text("100");
   intervals = 0;
   result_count = 0;
 }
