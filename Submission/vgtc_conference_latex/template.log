@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.8)  5 MAY 2018 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.8)  5 MAY 2018 20:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -569,9 +569,9 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 143.
 
-Underfull \hbox (badness 3701) in paragraph at lines 143--143
-\OT1/ptm/b/n/9 Index Terms:  \OT1/ptm/m/n/9 (+20) Yelp---ating Prediction---Dec
-ision Tree---
+Underfull \hbox (badness 1939) in paragraph at lines 143--143
+\OT1/ptm/b/n/9 Index Terms:  \OT1/ptm/m/n/9 (+20) Yelp---Rating Prediction---De
+cision Tree---
  []
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
@@ -591,16 +591,13 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-
-LaTeX Warning: Reference `tb:feature' on page 2 undefined on input line 167.
-
-<pictures/data.png, id=73, 1308.89pt x 624.3325pt>
+<pictures/data.png, id=74, 1308.89pt x 624.3325pt>
 File: pictures/data.png Graphic file (type png)
  <use pictures/data.png>
 Package pdftex.def Info: pictures/data.png used on input line 172.
 (pdftex.def)             Requested size: 170.71652pt x 81.42328pt.
 
-<pictures/vis_1.png, id=76, 820.56563pt x 204.01219pt>
+<pictures/vis_1.png, id=77, 820.56563pt x 204.01219pt>
 File: pictures/vis_1.png Graphic file (type png)
 
 <use pictures/vis_1.png>
@@ -612,7 +609,7 @@ Overfull \hbox (15.1298pt too wide) in paragraph at lines 249--250
  []
 
 [2 <./pictures/data.png> <./pictures/vis_1.png>]
-<pictures/vis_2.png, id=94, 564.60938pt x 407.27156pt>
+<pictures/vis_2.png, id=95, 564.60938pt x 407.27156pt>
 File: pictures/vis_2.png Graphic file (type png)
 
 <use pictures/vis_2.png>
@@ -623,7 +620,7 @@ Overfull \hbox (15.1298pt too wide) in paragraph at lines 263--264
  [][] 
  []
 
-<pictures/vis_3.png, id=97, 487.06969pt x 432.86719pt>
+<pictures/vis_3.png, id=98, 487.06969pt x 432.86719pt>
 File: pictures/vis_3.png Graphic file (type png)
 
 <use pictures/vis_3.png>
@@ -634,11 +631,11 @@ Overfull \hbox (15.1298pt too wide) in paragraph at lines 276--277
  [][] 
  []
 
-<pictures/vis_4.png, id=98, 411.78844pt x 385.44pt>
-File: pictures/vis_4.png Graphic file (type png)
- <use pictures/vis_4.png>
-Package pdftex.def Info: pictures/vis_4.png used on input line 285.
-(pdftex.def)             Requested size: 256.0748pt x 239.68785pt.
+<pictures/vis_4.jpg, id=99, 622.325pt x 596.2275pt>
+File: pictures/vis_4.jpg Graphic file (type jpg)
+ <use pictures/vis_4.jpg>
+Package pdftex.def Info: pictures/vis_4.jpg used on input line 285.
+(pdftex.def)             Requested size: 256.0748pt x 245.33733pt.
 
 Overfull \hbox (15.1298pt too wide) in paragraph at lines 285--286
  [][] 
@@ -648,7 +645,7 @@ Overfull \hbox (15.1298pt too wide) in paragraph at lines 285--286
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 (./template.bbl [3 <./pictures/vis_2.png> <./pictures/vis_3.png> <./pictures/vi
-s_4.png>])
+s_4.jpg>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 313.
  [4
 
@@ -659,17 +656,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 313.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 313.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 2D4B6B7FA09AD83ED87A05C79A1789D7;541.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
  ) 
 Here is how much of TeX's memory you used:
  8640 strings out of 493013
- 131960 string characters out of 6133344
- 255731 words of memory out of 5000000
- 11803 multiletter control sequences out of 15000+600000
+ 131941 string characters out of 6133344
+ 255732 words of memory out of 5000000
+ 11802 multiletter control sequences out of 15000+600000
  55369 words of font info for 225 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,13n,38p,2267b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -680,10 +673,10 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on template.pdf (4 pages, 348879 bytes).
+Output written on template.pdf (4 pages, 383393 bytes).
 PDF statistics:
  151 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
+ 129 compressed objects within 2 object streams
  38 named destinations out of 1000 (max. 500000)
  50282 words of extra memory for PDF output out of 51595 (max. 10000000)
 
