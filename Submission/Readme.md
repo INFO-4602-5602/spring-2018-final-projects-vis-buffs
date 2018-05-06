@@ -21,14 +21,9 @@
 
 5) Split (visualizing how to find the best split of a feature)
 
-<<<<<<< HEAD
  - drag the black threshold bar to change to cut-off and visualize changes in prediction result
  - ref: https://research.google.com/bigpicture/attacking-discrimination-in-ml/
  
-=======
- - drag the black threshold bar to change to cut-off and visualize changes in prediction result.
-
->>>>>>> c897eec60758df723d1c59085fc49f48c898085c
 6) Feature Ranking
 - mouseover to see the score of each feature, the score indicates the importance of each feature in rating prediction.
 
