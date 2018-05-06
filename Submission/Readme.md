@@ -26,4 +26,4 @@
 - mouseover to see the score of each feature, the score indicates the importance of each feature in rating prediction.
 
 7) Tree Model
-- click the "Accuracy" button to start the decision tree demo, we use 100 users data to test the accuracy.
+- click the "Accuracy" button to start the decision tree demo, we use 100 users data to test the prediction accuracy.
