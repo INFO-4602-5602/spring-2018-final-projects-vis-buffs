@@ -23,6 +23,7 @@
  - drag the black threshold bar to change to cut-off and visualize changes in prediction result.
 
 6) Feature Ranking
+- mouseover to see the score of each feature, the score indicates the importance of each feature in rating prediction.
 
 7) Tree Model
 - click the "Accuracy" button to start the decision tree demo, we use 100 users data to test the accuracy.
