@@ -1,0 +1,51 @@
+\begin{thebibliography}{1}
+
+\bibitem{yelpdata}
+https://www.yelp.com/dataset.
+\newblock 2018.
+
+\bibitem{chen2016xgboost}
+T.~Chen and C.~Guestrin.
+\newblock Xgboost: A scalable tree boosting system.
+\newblock In {\em Proceedings of the 22nd acm sigkdd international conference
+  on knowledge discovery and data mining}, pp. 785--794. ACM, 2016.
+
+\bibitem{cho2002personalized}
+Y.~H. Cho, J.~K. Kim, and S.~H. Kim.
+\newblock A personalized recommender system based on web usage mining and
+  decision tree induction.
+\newblock {\em Expert systems with Applications}, 23(3):329--342, 2002.
+
+\bibitem{das2012sentimantics}
+A.~Das and B.~Gamb{\"a}ck.
+\newblock Sentimantics: conceptual spaces for lexical sentiment polarity
+  representation with contextuality.
+\newblock In {\em Proceedings of the 3rd Workshop in Computational Approaches
+  to Subjectivity and Sentiment Analysis}, pp. 38--46. Association for
+  Computational Linguistics, 2012.
+
+\bibitem{montoyo2012subjectivity}
+A.~Montoyo, P.~Mart{\'\i}Nez-Barco, and A.~Balahur.
+\newblock Subjectivity and sentiment analysis: An overview of the current state
+  of the area and envisaged developments, 2012.
+
+\bibitem{portugal2017use}
+I.~Portugal, P.~Alencar, and D.~Cowan.
+\newblock The use of machine learning algorithms in recommender systems: a
+  systematic review.
+\newblock {\em Expert Systems with Applications}, 2017.
+
+\bibitem{sarwar2001item}
+B.~Sarwar, G.~Karypis, J.~Konstan, and J.~Riedl.
+\newblock Item-based collaborative filtering recommendation algorithms.
+\newblock In {\em Proceedings of the 10th international conference on World
+  Wide Web}, pp. 285--295. ACM, 2001.
+
+\bibitem{spackman1989signal}
+K.~A. Spackman.
+\newblock Signal detection theory: Valuable tools for evaluating inductive
+  learning.
+\newblock In {\em Proceedings of the sixth international workshop on Machine
+  learning}, pp. 160--163. Elsevier, 1989.
+
+\end{thebibliography}
