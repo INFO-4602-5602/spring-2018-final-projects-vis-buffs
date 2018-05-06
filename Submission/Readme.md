@@ -1,12 +1,12 @@
-#Instructions of our visualization project
+# Instructions of our visualization project
 
 - writeup.pdf
 
-##Our report
+## Our report
 
 - in /Submission, run "python -m SimpleHTTPServer 8000"
 
-##Our visualizations include the following parts:
+## Our visualizations include the following parts:
 
 1) Our story
 2) Our goal
