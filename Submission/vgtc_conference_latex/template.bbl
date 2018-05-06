@@ -1,5 +1,9 @@
 \begin{thebibliography}{1}
 
+\bibitem{bestsplit}
+https://research.google.com/bigpicture/attacking-discrimination-in-ml/.
+\newblock 2018.
+
 \bibitem{yelpdata}
 https://www.yelp.com/dataset.
 \newblock 2018.

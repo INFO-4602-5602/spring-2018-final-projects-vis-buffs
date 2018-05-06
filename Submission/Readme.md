@@ -21,6 +21,7 @@ Our visualizations include the following parts:
 5) Split (visualizing how to find the best split of a feature)
 
  - drag the black threshold bar to change to cut-off and visualize changes in prediction result
+ - ref: https://research.google.com/bigpicture/attacking-discrimination-in-ml/
  
 6) Feature Ranking
 

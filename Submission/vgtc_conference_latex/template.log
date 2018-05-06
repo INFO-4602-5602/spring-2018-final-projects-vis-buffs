@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.8)  5 MAY 2018 20:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.8)  5 MAY 2018 23:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -609,7 +609,7 @@ Overfull \hbox (15.1298pt too wide) in paragraph at lines 249--250
  []
 
 [2 <./pictures/data.png> <./pictures/vis_1.png>]
-<pictures/vis_2.png, id=95, 564.60938pt x 407.27156pt>
+<pictures/vis_2.png, id=96, 564.60938pt x 407.27156pt>
 File: pictures/vis_2.png Graphic file (type png)
 
 <use pictures/vis_2.png>
@@ -620,7 +620,7 @@ Overfull \hbox (15.1298pt too wide) in paragraph at lines 263--264
  [][] 
  []
 
-<pictures/vis_3.png, id=98, 487.06969pt x 432.86719pt>
+<pictures/vis_3.png, id=99, 487.06969pt x 432.86719pt>
 File: pictures/vis_3.png Graphic file (type png)
 
 <use pictures/vis_3.png>
@@ -631,7 +631,7 @@ Overfull \hbox (15.1298pt too wide) in paragraph at lines 276--277
  [][] 
  []
 
-<pictures/vis_4.jpg, id=99, 622.325pt x 596.2275pt>
+<pictures/vis_4.jpg, id=100, 622.325pt x 596.2275pt>
 File: pictures/vis_4.jpg Graphic file (type jpg)
  <use pictures/vis_4.jpg>
 Package pdftex.def Info: pictures/vis_4.jpg used on input line 285.
@@ -641,13 +641,16 @@ Overfull \hbox (15.1298pt too wide) in paragraph at lines 285--286
  [][] 
  []
 
+(./template.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+[]\OT1/ptm/m/n/8 (+1) https://research.google.com/bigpicture/attacking-discrimi
+nation-in-ml/.
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./template.bbl [3 <./pictures/vis_2.png> <./pictures/vis_3.png> <./pictures/vi
-s_4.jpg>])
+[3 <./pictures/vis_2.png> <./pictures/vis_3.png> <./pictures/vis_4.jpg>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 313.
- [4
+
+[4
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
@@ -659,13 +662,13 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
  ) 
 Here is how much of TeX's memory you used:
- 8640 strings out of 493013
- 131941 string characters out of 6133344
- 255732 words of memory out of 5000000
- 11802 multiletter control sequences out of 15000+600000
+ 8642 strings out of 493013
+ 131966 string characters out of 6133344
+ 255763 words of memory out of 5000000
+ 11803 multiletter control sequences out of 15000+600000
  55369 words of font info for 225 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,13n,38p,2267b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,13n,38p,2267b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/te
@@ -673,10 +676,10 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on template.pdf (4 pages, 383393 bytes).
+Output written on template.pdf (4 pages, 383715 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
+ 153 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
  50282 words of extra memory for PDF output out of 51595 (max. 10000000)
 
