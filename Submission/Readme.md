@@ -13,14 +13,14 @@
 3) Our design (vis drafts)
 4) Visualizations (visualizing features related to rating prediction)
 
- - vis_1: Restaurant category & Yelp rating (mouse over to see average rating for each category)
- - vis_2: US Yelp rating map (mouse over to see average rating in each state)
- - vis_3: Word cloud from Yelp reviews (different color represent different ratings, different size represent the different frequency of a word, the larger the more frequent)
- - vis_4: Yelp user friendship network (drag any node to move the network, mouse over each node to see average rating of the user)
+ - vis_1: Restaurant category & Yelp rating (mouse over to see average rating for each category).
+ - vis_2: US Yelp rating map (mouse over to see average rating in each state).
+ - vis_3: Word cloud from Yelp reviews (different color represent different ratings, different size represent the different frequency of a word, the larger the more frequent).
+ - vis_4: Yelp user friendship network (drag any node to move the network, mouse over each node to see average rating of the user), this network consists of a start user and his 39 friends, the line width indicates the count of business that the two users both rated on Yelp.
 
 5) Split (visualizing how to find the best split of a feature)
 
- - drag the black threshold bar to change to cut-off and visualize changes in prediction result
+ - drag the black threshold bar to change to cut-off and visualize changes in prediction result.
 
 6) Feature Ranking
 
