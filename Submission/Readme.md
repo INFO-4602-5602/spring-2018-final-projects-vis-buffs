@@ -1,5 +1,6 @@
 # Instructions of our visualization project
 
+- [Preview](http://creative.colorado.edu/~wemi4704/projects/vis/final/Submission/)
 - writeup.pdf
 
 ## Our report
